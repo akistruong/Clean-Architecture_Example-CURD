@@ -1,0 +1,11 @@
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\bin\Debug\net8.0\UseCase.deps.json
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\bin\Debug\net8.0\UseCase.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\bin\Debug\net8.0\UseCase.pdb
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\obj\Debug\net8.0\UseCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\obj\Debug\net8.0\UseCase.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\obj\Debug\net8.0\UseCase.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\obj\Debug\net8.0\UseCase.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\obj\Debug\net8.0\UseCase.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\obj\Debug\net8.0\refint\UseCase.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\obj\Debug\net8.0\UseCase.pdb
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\UseCase\obj\Debug\net8.0\ref\UseCase.dll

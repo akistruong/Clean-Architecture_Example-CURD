@@ -1,0 +1,17 @@
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Infrastructure.MySQL.deps.json
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Infrastructure.MySQL.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Infrastructure.MySQL.pdb
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Entities.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\UseCase.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Entities.pdb
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\UseCase.pdb
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastr.728E4DCC.Up2Date
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\refint\Infrastructure.MySQL.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.pdb
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\ref\Infrastructure.MySQL.dll
