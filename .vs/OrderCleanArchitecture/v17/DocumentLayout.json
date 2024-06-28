@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\infrastructure.mysql\\repositories\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\repositories\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\order\\unitofwork\\icreateorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\unitofwork\\icreateorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F011542-8F81-4F31-A709-5B5B937321EC}|Entities\\Entities.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\entities\\respositories\\base\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F011542-8F81-4F31-A709-5B5B937321EC}|Entities\\Entities.csproj|solutionrelative:entities\\respositories\\base\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\infrastructure.mysql\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Title": "ICreateOrderUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
+              "RelativeDocumentMoniker": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
+              "RelativeToolTip": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:20:20.789Z",
+              "WhenOpened": "2024-07-03T08:48:25.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T08:45:22.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Respositories\\Base\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Entities\\Respositories\\Base\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Respositories\\Base\\IRepositoryBase.cs",
-              "RelativeToolTip": "Entities\\Respositories\\Base\\IRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAnAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T07:19:40.181Z",
+              "WhenOpened": "2024-07-03T08:43:14.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\OrderDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\OrderDbContext.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\OrderDbContext.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\OrderDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAPAAAA",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Web\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T06:48:42.183Z",
+              "WhenOpened": "2024-07-03T08:43:12.809Z",
               "EditorCaption": ""
             }
           ]

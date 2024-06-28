@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Notification\" />
+    <Folder Include="Product\Query\Handler\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
 </Project>

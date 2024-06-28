@@ -4,14 +4,14 @@
     "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj",
-        "projectName": "Web",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,328 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
+        "projectName": "Infrastructure.MongoDB",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
+        "projectName": "Infrastructure.MySQL",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj",
+        "projectName": "UseCase",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj",
+        "projectName": "Web",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
