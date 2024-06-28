@@ -4,6 +4,7 @@ C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.AssemblyInfo.cs
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Infrastructure.MySQL.deps.json
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Infrastructure.MySQL.runtimeconfig.json
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Infrastructure.MySQL.dll
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Infrastructure.MySQL.pdb
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\bin\Debug\net8.0\Entities.dll
@@ -14,4 +15,5 @@ C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.dll
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\refint\Infrastructure.MySQL.dll
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.pdb
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\Infrastructure.MySQL.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MySQL\obj\Debug\net8.0\ref\Infrastructure.MySQL.dll

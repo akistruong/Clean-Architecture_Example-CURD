@@ -1,14 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UseCase.Respositories.Base;
+using Entities.Respositories.Base;
 
 namespace Infrastructure.MySQL.Repositories.Base
 {
-    internal class RepositoryBase<T> : IRepositoryBase<T> where T : class
+    public class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
         private OrderDbContext OrderDbContext;
 
@@ -17,34 +18,52 @@ namespace Infrastructure.MySQL.Repositories.Base
             OrderDbContext = orderDbContext;
         }
 
-        public bool Delete(T order)
+        public void Delete(T entity)
         {
-            OrderDbContext.Set<T>().Remove(order);
-            return true;
+            OrderDbContext.Remove(entity);
         }
 
-        public T Insert(T order)
+        public virtual async Task InsertAsync(T entity)
         {
-            OrderDbContext.Set<T>().Add
-                (order);
-            return order;
+            await OrderDbContext.Set<T>().AddAsync(entity);
         }
 
-        public T Select(T ID)
-        {
-            return OrderDbContext.Set<T>().Find(ID);
+        public virtual Task SaveChanges(T entity)=> OrderDbContext.SaveChangesAsync();
 
+        public async Task SaveChangesAsync()
+        {
+            await OrderDbContext.SaveChangesAsync();
         }
 
-        public List<T> Select()
+
+
+        public virtual List<T> Select()
         {
             return OrderDbContext.Set<T>().ToList();
         }
 
-        public T Update(T order)
+        public virtual async Task<T> SelectAsync(string ID)
         {
-            OrderDbContext.Entry(order).State = EntityState.Modified;   
-            return order;
+            var result =await OrderDbContext.Set<T>().FindAsync(ID);
+            if(result is not null)
+            {
+                return result;
+            }
+            return null;
         }
+
+        public virtual async Task<IReadOnlyList<T>> SelectAsync()
+        {
+            var result =await OrderDbContext.Set<T>().ToListAsync();
+            return result;
+        }
+
+        public virtual T Update(T entity)
+        {
+            OrderDbContext.Set<T>().Entry(entity).State = EntityState.Modified;   
+            return entity;
+        }
+
+       
     }
 }
