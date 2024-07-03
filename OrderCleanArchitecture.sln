@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entiti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.MySQL", "Infrastructure.MySQL\Infrastructure.MySQL.csproj", "{752A82D9-E9A4-499A-8902-9A4F4EB14696}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{6B73B9F6-E810-4624-86C0-F1FA5A984408}"
+EndProject
+>>>>>>> 790d08c442484ed3cf512c1db7bfc8352df6a878
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.MongoDB", "Infrastructure.MongoDB\Infrastructure.MongoDB.csproj", "{071ED813-5315-487D-BD83-373175555A96}"
 EndProject
 Global
