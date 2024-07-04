@@ -15,3 +15,4 @@ C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MongoDB\obj\Debug\net8.0\refint\Infrastructure.MongoDB.dll
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MongoDB\obj\Debug\net8.0\Infrastructure.MongoDB.pdb
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MongoDB\obj\Debug\net8.0\ref\Infrastructure.MongoDB.dll
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Infrastructure.MongoDB\obj\Debug\net8.0\Infrastructure.MongoDB.sourcelink.json
