@@ -36,7 +36,11 @@
               "RelativeDocumentMoniker": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
               "RelativeToolTip": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+>>>>>>> 7cf2a28e35cb480d3d28a7f6b56f4ee52f93e0a9
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T08:48:25.584Z",
               "EditorCaption": ""
