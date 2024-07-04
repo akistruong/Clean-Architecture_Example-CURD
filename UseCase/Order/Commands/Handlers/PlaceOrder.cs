@@ -5,13 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UseCase.Dtos;
+using UseCase.Order.Commands;
 using UseCase.UnitOfWork.Order;
 
-namespace UseCase.Order
+namespace UseCase.Order.Commands.Handlers
 {
     public class PlaceOrder : IPlaceOrder
     {
-        
+
         public ICreateOrderUnitOfWork _createOrderUnitOfWork { get; }
         IMapper _mapper;
 
@@ -27,12 +28,12 @@ namespace UseCase.Order
             try
             {
                 await _createOrderUnitOfWork.Begin();
-                var _orderAddData = _mapper.Map<Entities.Order>(request);   
+                var _orderAddData = _mapper.Map<Entities.Order>(request);
                 var _items = _orderAddData.Items;
                 //Update qty item;
-                for (int i=0;i<_items.Count;i++)
+                for (int i = 0; i < _items.Count; i++)
                 {
-                    if(_items[i].Qty<=0) return OrderResult.QtyInvalid;
+                    if (_items[i].Qty <= 0) return OrderResult.QtyInvalid;
                     //Product Cart Quantity 
                     var _productCartQty = _items[i].Qty;
                     //Finded Iventory
@@ -41,10 +42,10 @@ namespace UseCase.Order
                     //Finded Product
                     var _product = await _createOrderUnitOfWork._productRepository.SelectAsync(_items[i].ProductID);
                     ArgumentNullException.ThrowIfNull(_product);
-                    if (_iventory != null&&_product!=null)
+                    if (_iventory != null && _product != null)
                     {
                         ArgumentOutOfRangeException.ThrowIfNotEqual(_product.Qty, _iventory.Qty);
-                        
+
                         var _stock = _iventory.Qty - _productCartQty;
                         if (_stock > 0)
                         {
@@ -53,7 +54,7 @@ namespace UseCase.Order
                             //Iventory updated
                             _iventory.Qty -= _productCartQty;
                         }
-                        else if(_stock==0)
+                        else if (_stock == 0)
                         {
                             _product.IsStock = false;
                             // Product updated
@@ -73,13 +74,15 @@ namespace UseCase.Order
                 //Create Order 
                 _orderAddData.OrderID = Guid.NewGuid().ToString();
                 _orderAddData.TotalQty = _orderAddData.GetTotalQty();
-                _orderAddData.TotalOrder= _orderAddData.GetFinalPrice();
+                _orderAddData.TotalOrder = _orderAddData.GetFinalPrice();
                 await _createOrderUnitOfWork._orderRepository.InsertAsync(_orderAddData);
                 // Save and Commit
                 await _createOrderUnitOfWork.Commit();
                 return OrderResult.Success;
 
-            }catch (Exception ex) { 
+            }
+            catch (Exception ex)
+            {
                 await _createOrderUnitOfWork.Cancel();
                 throw ex;
             }

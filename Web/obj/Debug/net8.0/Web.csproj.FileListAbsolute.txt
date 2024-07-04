@@ -145,3 +145,4 @@ C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Web\obj\Debug\
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Web\obj\Debug\net8.0\Web.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Web\obj\Debug\net8.0\ref\Web.dll
 C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Web\obj\Debug\net8.0\Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Clean-architecture\OrderCleanArchitecture\Web\obj\Debug\net8.0\Web.sourcelink.json
