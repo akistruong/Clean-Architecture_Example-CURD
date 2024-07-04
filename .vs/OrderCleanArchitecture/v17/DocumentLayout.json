@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\commands\\handlers\\product\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\commands\\handlers\\product\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\order\\commands\\handlers\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\commands\\handlers\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\order\\commands\\iplaceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\commands\\iplaceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\order\\unitofwork\\icreateorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\unitofwork\\icreateorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\order\\commands\\iplaceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\commands\\iplaceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\order\\commands\\handlers\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\commands\\handlers\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,25 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Commands\\Handlers\\Product\\CreateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "UseCase\\Commands\\Handlers\\Product\\CreateProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Commands\\Handlers\\Product\\CreateProductCommandHandler.cs*",
-              "RelativeToolTip": "UseCase\\Commands\\Handlers\\Product\\CreateProductCommandHandler.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAC8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T10:03:07.621Z",
+              "WhenOpened": "2024-07-04T10:06:13.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlaceOrder.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\Commands\\Handlers\\PlaceOrder.cs",
               "RelativeDocumentMoniker": "UseCase\\Order\\Commands\\Handlers\\PlaceOrder.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\Commands\\Handlers\\PlaceOrder.cs",
               "RelativeToolTip": "UseCase\\Order\\Commands\\Handlers\\PlaceOrder.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T09:59:50.751Z",
               "EditorCaption": ""
@@ -74,57 +62,23 @@
               "RelativeDocumentMoniker": "UseCase\\Order\\Commands\\IPlaceOrder.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\Commands\\IPlaceOrder.cs",
               "RelativeToolTip": "UseCase\\Order\\Commands\\IPlaceOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T09:59:31.207Z"
+              "WhenOpened": "2024-07-04T09:59:31.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICreateOrderUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-              "RelativeDocumentMoniker": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-              "RelativeToolTip": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:48:25.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEEAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:45:22.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:43:14.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Web\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:43:12.809Z"
+              "WhenOpened": "2024-07-03T08:43:12.809Z",
+              "EditorCaption": ""
             }
           ]
         }
