@@ -36,28 +36,9 @@
               "RelativeDocumentMoniker": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
               "RelativeToolTip": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-<<<<<<< HEAD
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T08:48:25.584Z",
-=======
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:48:25.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEEAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:45:22.111Z",
->>>>>>> 790d08c442484ed3cf512c1db7bfc8352df6a878
               "EditorCaption": ""
             },
             {
@@ -82,12 +63,7 @@
               "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
               "WhenOpened": "2024-07-03T08:43:14.61Z"
-=======
-              "WhenOpened": "2024-07-03T08:43:14.61Z",
-              "EditorCaption": ""
->>>>>>> 790d08c442484ed3cf512c1db7bfc8352df6a878
             },
             {
               "$type": "Document",
@@ -99,12 +75,7 @@
               "RelativeToolTip": "Web\\Controllers\\OrderController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
               "WhenOpened": "2024-07-03T08:43:12.809Z"
-=======
-              "WhenOpened": "2024-07-03T08:43:12.809Z",
-              "EditorCaption": ""
->>>>>>> 790d08c442484ed3cf512c1db7bfc8352df6a878
             }
           ]
         }
