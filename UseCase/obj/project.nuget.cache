@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "AtHkQDdrgKs4pMjRkQswOh/yl4mSOsEpki0Vh45diZ3ladpTBjXNTzSNYW8+APqXnk8xPh4x8dWmk7PxiZI6gg==",
+  "dgSpecHash": "uFuZC3NSvFthdv+hceiQmUhoCo8WGB+rm7vDx1o9mvBRkueOt3VCbJMu6/hnnYad1XjJKHpL2kdgqs2El8c06g==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mongodb.bson\\2.27.0\\mongodb.bson.2.27.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

@@ -10,5 +10,6 @@ namespace UseCase.Order
     {
         Success,
         QuantityInvalid = -1,
+        Faild = -1,
     }
 }

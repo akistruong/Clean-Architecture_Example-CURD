@@ -1,24 +1,19 @@
 using Entities.Respositories;
 using Infrastructure.MongoDB.Data;
-using Infrastructure.MongoDB.Repositories;
 using Infrastructure.MongoDB.Repositories.Iventory;
 using Infrastructure.MongoDB.Repositories.Order;
+using Infrastructure.MongoDB.Repositories.Product;
+using Infrastructure.MongoDB.Repositories.UnitOfWork.Order;
 using Infrastructure.MongoDB.Repositories.UnitOfWork.Product;
 using Infrastructure.MySQL;
 using Infrastructure.MySQL.Repositories;
-using Infrastructure.MySQL.Repositories.Pagination;
 using Infrastructure.MySQL.Repositories.Pagination.Product;
 using Infrastructure.MySQL.UnitOfWork.Order;
 using Infrastructure.MySQL.UnitOfWork.Product;
 using System.Net;
-using UseCase.Order;
-using UseCase.Order.Commands;
 using UseCase.Order.Commands.Handlers;
-using UseCase.Pagination.Base;
 using UseCase.Pagination.Product;
-using UseCase.Product.Command;
 using UseCase.Product.Command.Handler;
-using UseCase.Product.Query;
 using UseCase.Product.Query.Handler;
 using UseCase.Product.UnitOfWork;
 using UseCase.UnitOfWork.Order;
@@ -31,36 +26,43 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-if (Database=="MYSQL")
+// add service MediatR
+builder.Services.AddMediatR(cfg =>
+{
+    //PRODUCT
+    cfg.RegisterServicesFromAssembly(typeof(PropductQueryCommandHandler).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(CreateProductCommandHandler).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(UpdateProductCommandHandler).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(DeleteProductCommandHandler).Assembly);
+    //ORDER
+    cfg.RegisterServicesFromAssembly(typeof(PlaceOrderCommandHandler).Assembly);
+
+});
+if (Database == "MYSQL")
 {
     //MYSQL
     builder.Services.AddDbContext<OrderDbContext>();
-        /*PRODUCT*/
+    /*PRODUCT*/
     builder.Services.AddTransient<IProductRepository, ProductRepository>();
     builder.Services.AddTransient<ICreateProductUnitOfWork, CreateProductUnitOfWork>();
-    builder.Services.AddTransient<ICreateProduct, CreateProduct>();
-    builder.Services.AddTransient<IUpdateProduct, UpdateProduct>();
-    builder.Services.AddTransient<IDeleteProduct, DeleteProduct>();
-    builder.Services.AddTransient<IProductQuery, ProductQuery>();
     /* ORDER*/
     builder.Services.AddTransient<IOrderRepository, OrderRepository>();
     builder.Services.AddTransient<ICreateOrderUnitOfWork, CreateOrderUnitOfWork>();
-    builder.Services.AddTransient<IPlaceOrder, PlaceOrder>();
     /*IVENTORY*/
     builder.Services.AddTransient<IIventoryRepository, IventoryRepository>();
     /*PAGINATION*/
-    builder.Services.AddTransient<IProductPagination,ProductPagination>();
+    builder.Services.AddTransient<IProductPagination, ProductPagination>();
 
 }
 else
 {
     //MONGODB
     builder.Services.AddTransient<MongoDBService>();
-    builder.Services.AddTransient<IProductRepository, MongoProductRepository>();
+    builder.Services.AddTransient<IProductRepository, MongoDbProductRepository>();
     builder.Services.AddTransient<IIventoryRepository, MongoDbIventoryRepository>();
     builder.Services.AddTransient<IOrderRepository, MongoDbOrderRepository>();
     builder.Services.AddTransient<ICreateProductUnitOfWork, MongoDbCreateProductUnitOfWork>();
-    builder.Services.AddTransient<ICreateProduct, CreateProduct>();
+    builder.Services.AddTransient<ICreateOrderUnitOfWork, MongoDBCreateOrderUnitOfWork>();
 }
 
 
