@@ -1,30 +1,34 @@
 ﻿using AutoMapper;
-using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UseCase.Dtos;
+using UseCase.Order.Commands;
 using UseCase.UnitOfWork.Order;
 
 namespace UseCase.Order.Commands.Handlers
 {
-    public class PlaceOrderCommandHandler : IRequestHandler<PlaceOrderCommand, OrderResult>
+    public class PlaceOrder : IPlaceOrder
     {
-        private readonly ICreateOrderUnitOfWork _createOrderUnitOfWork;
-        private IMapper _mapper;
-        public PlaceOrderCommandHandler(ICreateOrderUnitOfWork createOrderUnitOfWork, IMapper mapper)
+
+        public ICreateOrderUnitOfWork _createOrderUnitOfWork { get; }
+        IMapper _mapper;
+
+        public PlaceOrder(ICreateOrderUnitOfWork createOrderUnitOfWork, IMapper mapper)
         {
             _createOrderUnitOfWork = createOrderUnitOfWork;
             _mapper = mapper;
         }
 
-        public async Task<OrderResult> Handle(PlaceOrderCommand request, CancellationToken cancellationToken)
+
+        public async Task<OrderResult> CreateOrder(OrderRequest request)
         {
             try
             {
                 await _createOrderUnitOfWork.Begin();
-                var _orderAddData = _mapper.Map<Entities.Order>(request._request);
+                var _orderAddData = _mapper.Map<Entities.Order>(request);
                 var _items = _orderAddData.Items;
                 //Update qty item;
                 for (int i = 0; i < _items.Count; i++)

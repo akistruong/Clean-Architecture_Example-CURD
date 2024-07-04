@@ -31,17 +31,6 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-// add service MediatR
-builder.Services.AddMediatR(cfg => {
-    cfg.RegisterServicesFromAssembly(typeof(PropductQueryCommandHandler).Assembly);
-    cfg.RegisterServicesFromAssembly(typeof(CreateProductCommandHandler).Assembly);
-    cfg.RegisterServicesFromAssembly(typeof(UpdateProductCommandHandler).Assembly);
-    cfg.RegisterServicesFromAssembly(typeof(DeleteProductCommandHandler).Assembly);
-
-    //ORDER
-    cfg.RegisterServicesFromAssembly(typeof(PlaceOrderCommandHandler).Assembly);
-
-});
 if (Database=="MYSQL")
 {
     //MYSQL
@@ -49,9 +38,14 @@ if (Database=="MYSQL")
         /*PRODUCT*/
     builder.Services.AddTransient<IProductRepository, ProductRepository>();
     builder.Services.AddTransient<ICreateProductUnitOfWork, CreateProductUnitOfWork>();
+    builder.Services.AddTransient<ICreateProduct, CreateProduct>();
+    builder.Services.AddTransient<IUpdateProduct, UpdateProduct>();
+    builder.Services.AddTransient<IDeleteProduct, DeleteProduct>();
+    builder.Services.AddTransient<IProductQuery, ProductQuery>();
     /* ORDER*/
     builder.Services.AddTransient<IOrderRepository, OrderRepository>();
     builder.Services.AddTransient<ICreateOrderUnitOfWork, CreateOrderUnitOfWork>();
+    builder.Services.AddTransient<IPlaceOrder, PlaceOrder>();
     /*IVENTORY*/
     builder.Services.AddTransient<IIventoryRepository, IventoryRepository>();
     /*PAGINATION*/
@@ -66,6 +60,7 @@ else
     builder.Services.AddTransient<IIventoryRepository, MongoDbIventoryRepository>();
     builder.Services.AddTransient<IOrderRepository, MongoDbOrderRepository>();
     builder.Services.AddTransient<ICreateProductUnitOfWork, MongoDbCreateProductUnitOfWork>();
+    builder.Services.AddTransient<ICreateProduct, CreateProduct>();
 }
 
 

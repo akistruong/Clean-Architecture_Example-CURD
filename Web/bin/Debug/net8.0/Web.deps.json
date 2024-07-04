@@ -10,7 +10,6 @@
         "dependencies": {
           "Infrastructure.MongoDB": "1.0.0",
           "Infrastructure.MySQL": "1.0.0",
-          "MediatR": "12.3.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.6",
           "Swashbuckle.AspNetCore": "6.4.0",
           "UseCase": "1.0.0"
@@ -110,26 +109,6 @@
           "lib/net6.0/K4os.Hash.xxHash.dll": {
             "assemblyVersion": "1.0.8.0",
             "fileVersion": "1.0.8.0"
-          }
-        }
-      },
-      "MediatR/12.3.0": {
-        "dependencies": {
-          "MediatR.Contracts": "2.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/MediatR.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.3.0.0"
-          }
-        }
-      },
-      "MediatR.Contracts/2.0.1": {
-        "runtime": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -978,8 +957,7 @@
       "UseCase/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "Entities": "1.0.0",
-          "MediatR": "12.3.0"
+          "Entities": "1.0.0"
         },
         "runtime": {
           "UseCase.dll": {}
@@ -1062,20 +1040,6 @@
       "sha512": "sha512-Wp2F7BamQ2Q/7Hk834nV9vRQapgcr8kgv9Jvfm8J3D0IhDqZMMl+a2yxUq5ltJitvXvQfB8W6K4F4fCbw/P6YQ==",
       "path": "k4os.hash.xxhash/1.0.8",
       "hashPath": "k4os.hash.xxhash.1.0.8.nupkg.sha512"
-    },
-    "MediatR/12.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DuXRw/qux2n7pTRPond4WK9XImO+30TZrGPCeOmjYIXDWokpjZQDFRsdZMoP0WqWU7inC4m0D+Zbu5dSc4z6NQ==",
-      "path": "mediatr/12.3.0",
-      "hashPath": "mediatr.12.3.0.nupkg.sha512"
-    },
-    "MediatR.Contracts/2.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
-      "path": "mediatr.contracts/2.0.1",
-      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
