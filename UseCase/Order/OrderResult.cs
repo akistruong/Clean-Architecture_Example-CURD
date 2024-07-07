@@ -18,5 +18,6 @@ namespace UseCase.Order
         }
     public static readonly OrderResult Success = new OrderResult("Đặt hàng thành công!", OrderStatus.Success);
     public static readonly OrderResult QtyInvalid = new OrderResult("Số lượng không đáp ứng yêu cầu của bạn!", OrderStatus.QuantityInvalid);
+    public static readonly OrderResult Faild = new OrderResult("Đặt hàng thất bại!", OrderStatus.QuantityInvalid);
     }
 }

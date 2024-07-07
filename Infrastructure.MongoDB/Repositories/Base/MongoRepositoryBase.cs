@@ -25,7 +25,13 @@ namespace Infrastructure.MongoDB.Repositories.Base
 
         public async Task InsertAsync(T entity)
         {
-           await _collection.InsertOneAsync(entity); 
+            try
+            {
+                await _collection.InsertOneAsync(entity);
+            }catch(Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public Task SaveChanges(T entity)

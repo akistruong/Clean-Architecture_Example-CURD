@@ -1,66 +1,97 @@
 using Entities.Respositories;
+using FluentValidation;
 using Infrastructure.MongoDB.Data;
-using Infrastructure.MongoDB.Repositories;
 using Infrastructure.MongoDB.Repositories.Iventory;
 using Infrastructure.MongoDB.Repositories.Order;
+using Infrastructure.MongoDB.Repositories.Product;
+using Infrastructure.MongoDB.Repositories.UnitOfWork.Order;
 using Infrastructure.MongoDB.Repositories.UnitOfWork.Product;
 using Infrastructure.MySQL;
 using Infrastructure.MySQL.Repositories;
-using Infrastructure.MySQL.Repositories.Pagination;
 using Infrastructure.MySQL.Repositories.Pagination.Product;
+using Infrastructure.MySQL.UnitOfWork.Base;
 using Infrastructure.MySQL.UnitOfWork.Order;
 using Infrastructure.MySQL.UnitOfWork.Product;
+using Infrastructure.SQLServer;
+using Infrastructure.SQLServer.Repositories;
+using Infrastructure.SQLServer.UnitOfWork.Product;
 using System.Net;
-using UseCase.Order;
-using UseCase.Order.Commands;
+using System.Reflection;
 using UseCase.Order.Commands.Handlers;
-using UseCase.Pagination.Base;
 using UseCase.Pagination.Product;
-using UseCase.Product.Command;
 using UseCase.Product.Command.Handler;
-using UseCase.Product.Query;
 using UseCase.Product.Query.Handler;
 using UseCase.Product.UnitOfWork;
+using UseCase.UnitOfWork.Base;
 using UseCase.UnitOfWork.Order;
+using UseCase.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
-var Database = "MYSQL";
+var Database = "SQLServer";
 // Add services to the container.
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddAutoMapper(Assembly.Load("InterfaceAdapter"));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-if (Database=="MYSQL")
+// add service MediatR
+builder.Services.AddMediatR(cfg =>
+{
+    //PRODUCT
+    cfg.RegisterServicesFromAssembly(typeof(PropductQueryCommandHandler).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(CreateProductCommandHandler).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(UpdateProductCommandHandler).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(DeleteProductCommandHandler).Assembly);
+    //ORDER
+    cfg.RegisterServicesFromAssembly(typeof(PlaceOrderCommandHandler).Assembly);
+
+
+});
+//VALIDATORS
+builder.Services.AddScoped<IValidator<Entities.Product>, ProductValidator>();
+if (Database == "MYSQL")
 {
     //MYSQL
     builder.Services.AddDbContext<OrderDbContext>();
-        /*PRODUCT*/
-    builder.Services.AddTransient<IProductRepository, ProductRepository>();
-    builder.Services.AddTransient<ICreateProductUnitOfWork, CreateProductUnitOfWork>();
-    builder.Services.AddTransient<ICreateProduct, CreateProduct>();
-    builder.Services.AddTransient<IUpdateProduct, UpdateProduct>();
-    builder.Services.AddTransient<IDeleteProduct, DeleteProduct>();
-    builder.Services.AddTransient<IProductQuery, ProductQuery>();
+    /*PRODUCT*/
+    /*PRODUCT*/
+    builder.Services.AddTransient<IProductRepository, Infrastructure.MySQL.Repositories.ProductRepository>();
+    builder.Services.AddTransient<ICreateProductUnitOfWork, Infrastructure.MySQL.UnitOfWork.Product.CreateProductUnitOfWork>();
     /* ORDER*/
-    builder.Services.AddTransient<IOrderRepository, OrderRepository>();
-    builder.Services.AddTransient<ICreateOrderUnitOfWork, CreateOrderUnitOfWork>();
-    builder.Services.AddTransient<IPlaceOrder, PlaceOrder>();
+    builder.Services.AddTransient<IOrderRepository, Infrastructure.MySQL.Repositories.OrderRepository>();
+    builder.Services.AddTransient<ICreateOrderUnitOfWork, Infrastructure.MySQL.UnitOfWork.Order.CreateOrderUnitOfWork>();
     /*IVENTORY*/
-    builder.Services.AddTransient<IIventoryRepository, IventoryRepository>();
+    builder.Services.AddTransient<IIventoryRepository, Infrastructure.MySQL.Repositories.IventoryRepository>();
     /*PAGINATION*/
-    builder.Services.AddTransient<IProductPagination,ProductPagination>();
-
+    builder.Services.AddTransient<IProductPagination, ProductPagination>();
+    //UnitOfWork
+    builder.Services.AddTransient<IUnitOfWorkBase, Infrastructure.MySQL.UnitOfWork.Base.UnitOfWorkBase>();
 }
-else
+else if (Database == "MONGODB")
 {
     //MONGODB
     builder.Services.AddTransient<MongoDBService>();
-    builder.Services.AddTransient<IProductRepository, MongoProductRepository>();
+    builder.Services.AddTransient<IProductRepository, MongoDbProductRepository>();
     builder.Services.AddTransient<IIventoryRepository, MongoDbIventoryRepository>();
     builder.Services.AddTransient<IOrderRepository, MongoDbOrderRepository>();
     builder.Services.AddTransient<ICreateProductUnitOfWork, MongoDbCreateProductUnitOfWork>();
-    builder.Services.AddTransient<ICreateProduct, CreateProduct>();
+    builder.Services.AddTransient<ICreateOrderUnitOfWork, MongoDBCreateOrderUnitOfWork>();
+}
+else
+{
+    builder.Services.AddDbContext<SQLServerDbContext>();
+    /*PRODUCT*/
+    builder.Services.AddTransient<IProductRepository, Infrastructure.SQLServer.Repositories.ProductRepository>();
+    builder.Services.AddTransient<ICreateProductUnitOfWork, Infrastructure.SQLServer.UnitOfWork.Product.CreateProductUnitOfWork>();
+    /* ORDER*/
+    builder.Services.AddTransient<IOrderRepository, Infrastructure.SQLServer.Repositories.OrderRepository>();
+    builder.Services.AddTransient<ICreateOrderUnitOfWork, Infrastructure.SQLServer.UnitOfWork.Order.CreateOrderUnitOfWork>();
+    /*IVENTORY*/
+    builder.Services.AddTransient<IIventoryRepository, Infrastructure.SQLServer.Repositories.IventoryRepository>();
+    /*PAGINATION*/
+    //builder.Services.AddTransient<IProductPagination, ProductPagination>();
+    //UnitOfWork
+    builder.Services.AddTransient<IUnitOfWorkBase, Infrastructure.SQLServer.UnitOfWork.Base.UnitOfWorkBase>();
 }
 
 
