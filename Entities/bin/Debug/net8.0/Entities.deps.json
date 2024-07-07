@@ -9,7 +9,8 @@
       "Entities/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.6",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.6"
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.6",
+          "MongoDB.Bson": "2.27.0"
         },
         "runtime": {
           "Entities.dll": {}
@@ -419,6 +420,18 @@
           }
         }
       },
+      "MongoDB.Bson/2.27.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.27.0.0",
+            "fileVersion": "2.27.0.0"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -511,6 +524,7 @@
           }
         }
       },
+      "System.Memory/4.5.5": {},
       "System.Reflection.Metadata/6.0.1": {
         "dependencies": {
           "System.Collections.Immutable": "6.0.0"
@@ -698,6 +712,13 @@
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
+    "MongoDB.Bson/2.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IZ0B3upRWzDkV9wWSJ4bO8BriYZ2ChjtBCHFGFglOVDZHjLz1D7Bmx2yAFQf/kWyieKD7s7xBLDywzezNX+NCw==",
+      "path": "mongodb.bson/2.27.0",
+      "hashPath": "mongodb.bson.2.27.0.nupkg.sha512"
+    },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",
       "serviceable": true,
@@ -767,6 +788,13 @@
       "sha512": "sha512-ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
       "path": "system.io.pipelines/6.0.3",
       "hashPath": "system.io.pipelines.6.0.3.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
     "System.Reflection.Metadata/6.0.1": {
       "type": "package",

@@ -56,6 +56,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.27.0, )"
             }
           },
           "imports": [
@@ -126,6 +130,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
             }
           },
           "imports": [
