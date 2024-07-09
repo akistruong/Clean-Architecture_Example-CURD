@@ -1,18 +1,13 @@
-﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UseCase.Dtos;
+﻿using InterfaceAdapter.Product;
+using MediatR;
 
 namespace UseCase.Product.Command
 {
-    public class CreateProductCommand:IRequest
+    public class CreateProductCommand : IRequest
     {
-        public ProductRequest request;
+        public ProductInsertRequest request;
 
-        public CreateProductCommand(ProductRequest request)
+        public CreateProductCommand(ProductInsertRequest request)
         {
             this.request = request;
         }

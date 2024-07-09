@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "aijifuWftKPK9UEIbvbD25WdvpUuXvKAJ/NZ+DZBsAEH6w7Od4EAcyIWzxYeYkmO8u0FNYVkc/k04Nqx2YBPWw==",
+  "dgSpecHash": "qOprmX6LzvfXUxrJjNv7aCUAPCZhC38K28jd1ckvC8AU8b2TxyEC5MLP378T9obuYR0mZm7QEX0p10RR7hSh2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

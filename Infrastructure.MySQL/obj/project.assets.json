@@ -31,6 +31,19 @@
           }
         }
       },
+      "FluentValidation/11.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Google.Protobuf/3.25.1": {
         "type": "package",
         "compile": {
@@ -1385,12 +1398,28 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
+      "InterfaceAdapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InterfaceAdapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InterfaceAdapter.dll": {}
+        }
+      },
       "UseCase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Entities": "1.0.0",
+          "FluentValidation": "11.9.2",
+          "InterfaceAdapter": "1.0.0",
           "MediatR": "12.3.0"
         },
         "compile": {
@@ -1436,6 +1465,31 @@
         "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
         "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
         "packageIcon.png"
+      ]
+    },
+    "FluentValidation/11.9.2": {
+      "sha512": "XeHp9LvFvu1fsQ/NvDCymV02GOCB1nz7ZUhfpI3uMhCcHTkV1K5bMkv+Nc/kuNYyAsX5+5bcmUanIEMd5QN+Eg==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Google.Protobuf/3.25.1": {
@@ -3923,6 +3977,11 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
+    "InterfaceAdapter/1.0.0": {
+      "type": "project",
+      "path": "../InterfaceAdapter/InterfaceAdapter.csproj",
+      "msbuildProject": "../InterfaceAdapter/InterfaceAdapter.csproj"
+    },
     "UseCase/1.0.0": {
       "type": "project",
       "path": "../UseCase/UseCase.csproj",
@@ -3944,11 +4003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
       "projectName": "Infrastructure.MySQL",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3965,11 +4024,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"
             }
           }
         }

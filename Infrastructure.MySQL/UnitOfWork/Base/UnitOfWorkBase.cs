@@ -14,7 +14,7 @@ namespace Infrastructure.MySQL.UnitOfWork.Base
         public UnitOfWorkBase(OrderDbContext orderDbContext)
         {
             _orderDbContext = orderDbContext;
-            Console.WriteLine("DbContext:ProductRepository" + orderDbContext.GetHashCode().ToString());
+            Console.WriteLine("DbContext:UnitOfWorkBase" + orderDbContext.GetHashCode().ToString());
         }
 
         public async Task Begin()
@@ -25,6 +25,7 @@ namespace Infrastructure.MySQL.UnitOfWork.Base
         public async Task Cancel()
         {
             await _orderDbContext.DisposeAsync();   
+            await _orderDbContext.Database.RollbackTransactionAsync();  
         }
 
         public async Task Commit()

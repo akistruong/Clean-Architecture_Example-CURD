@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
         "projectName": "Infrastructure.MongoDB",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,11 +106,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"
               }
             }
           }
@@ -159,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
         "projectName": "Infrastructure.MySQL",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,11 +183,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"
               }
             }
           }
@@ -244,14 +244,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj",
-        "projectName": "UseCase",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
+        "projectName": "Infrastructure.SQLServer",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -268,8 +268,91 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
+        "projectName": "InterfaceAdapter",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
               }
             }
           }
@@ -292,6 +375,83 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj",
+        "projectName": "UseCase",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
             },
             "MediatR": {
               "target": "Package",
@@ -318,14 +478,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -342,14 +502,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj"
               },
-              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj"
               },
-              "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"
               }
             }
           }

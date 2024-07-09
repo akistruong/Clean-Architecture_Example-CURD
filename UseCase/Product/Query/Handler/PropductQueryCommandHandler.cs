@@ -1,12 +1,8 @@
-﻿using Entities.Dtos;
-using Entities.Respositories;
+﻿using Entities.Respositories;
 using MediatR;
-using UseCase.Dtos;
-using UseCase.Pagination.Base;
-using UseCase.Pagination.Product;
 namespace UseCase.Product.Query.Handler
 {
-    public class PropductQueryCommandHandler : IRequestHandler<ProductQueryCommand,IEnumerable<Entities.Product>>
+    public class PropductQueryCommandHandler : IRequestHandler<ProductQueryCommand, IEnumerable<Entities.Product>>
     {
         private readonly IProductRepository productRepository;
         public PropductQueryCommandHandler(IProductRepository productRepository)
@@ -19,11 +15,12 @@ namespace UseCase.Product.Query.Handler
             try
             {
                 var products = await productRepository.SelectAsync(request.queryParams);
-                var _limit  = request.queryParams.Limit<0?2: request.queryParams.Limit;    
-                var _page = request.queryParams.Page<1?1: request.queryParams.Page;   
+                var _limit = request.queryParams.Limit < 0 ? 2 : request.queryParams.Limit;
+                var _page = request.queryParams.Page < 1 ? 1 : request.queryParams.Page;
                 return products;
             }
-            catch(Exception ex) {
+            catch (Exception ex)
+            {
                 throw ex;
             }
         }

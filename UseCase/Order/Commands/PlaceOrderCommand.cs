@@ -1,18 +1,13 @@
-﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UseCase.Dtos;
+﻿using InterfaceAdapter.Order;
+using MediatR;
 
 namespace UseCase.Order.Commands
 {
     public class PlaceOrderCommand : IRequest<OrderResult>
     {
-        public OrderRequest _request;
+        public OrderInsertRequest _request;
 
-        public PlaceOrderCommand(OrderRequest request)
+        public PlaceOrderCommand(OrderInsertRequest request)
         {
             _request = request;
         }

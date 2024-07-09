@@ -18,7 +18,6 @@ namespace UseCase.Order.Commands.Handlers
             _createOrderUnitOfWork = createOrderUnitOfWork;
             _mapper = mapper;
         }
-
         public async Task<OrderResult> Handle(PlaceOrderCommand request, CancellationToken cancellationToken)
         {
             try
@@ -29,49 +28,43 @@ namespace UseCase.Order.Commands.Handlers
                 //Update qty item;
                 for (int i = 0; i < _items.Count; i++)
                 {
-                    if (_items[i].Qty <= 0) return OrderResult.QtyInvalid;
+                    var _item = _items[i];   
+                    if (_item.Qty <= 0) return OrderResult.QtyInvalid;
                     //Product Cart Quantity 
-                    var _productCartQty = _items[i].Qty;
+                    var _productCartQty = _item.Qty;
                     //Finded Iventory
-                    var _iventory = await _createOrderUnitOfWork._iventoryRepository.GetIventoryByProductID(_items[i].ProductID);
+                    var _iventory = await _createOrderUnitOfWork._iventoryRepository.GetIventoryByProductID(_item.ProductID);
                     ArgumentNullException.ThrowIfNull(_iventory);
                     //Finded Product
-                    var _product = await _createOrderUnitOfWork._productRepository.SelectAsync(_items[i].ProductID);
+                    var _product = await _createOrderUnitOfWork._productRepository.SelectAsync(_item.ProductID);
                     ArgumentNullException.ThrowIfNull(_product);
-                    if (_iventory != null && _product != null)
+                    ArgumentOutOfRangeException.ThrowIfNotEqual(_product.Qty, _iventory.Qty);
+                    var _remainingStock = _iventory.Qty - _productCartQty;
+                    if (_remainingStock > 0)
                     {
-                        ArgumentOutOfRangeException.ThrowIfNotEqual(_product.Qty, _iventory.Qty);
-
-                        var _stock = _iventory.Qty - _productCartQty;
-                        if (_stock > 0)
-                        {
-                            // Product updated
-                            _product.Qty -= _productCartQty;
-                            //Iventory updated
-                            _iventory.Qty -= _productCartQty;
-                        }
-                        else if (_stock == 0)
-                        {
-                            _product.IsStock = false;
-                            // Product updated
-                            _product.Qty -= _productCartQty;
-                            //Iventory updated
-                            _iventory.Qty -= _productCartQty;
-                        }
-                        else
-                        {
-                            return OrderResult.QtyInvalid;
-                        }
-                        _items[i].Price = _product.ProductPrice;
-                        _createOrderUnitOfWork._productRepository.Update(_product);
-                        _createOrderUnitOfWork._iventoryRepository.Update(_iventory);
+                        // Product updated
+                        _product.Qty -= _productCartQty;
+                        //Iventory updated
+                        _iventory.Qty -= _productCartQty;
                     }
+                    else if (_remainingStock == 0)
+                    {
+                        _product.IsStock = false;
+                        // Product updated
+                        _product.Qty -= _productCartQty;
+                        //Iventory updated
+                        _iventory.Qty -= _productCartQty;
+                    }
+                    else
+                    {
+                        return OrderResult.QtyInvalid;
+                    }
+                    _item.Price = _product.ProductPrice;
+                    _createOrderUnitOfWork._productRepository.Update(_product);
+                    _createOrderUnitOfWork._iventoryRepository.Update(_iventory);
                 }
                 //Create Order 
-                _orderAddData.OrderID = Guid.NewGuid().ToString();
-                _orderAddData.TotalQty = _orderAddData.GetTotalQty();
-                _orderAddData.TotalOrder = _orderAddData.GetFinalPrice();
-                await _createOrderUnitOfWork._orderRepository.InsertAsync(_orderAddData);
+                await HandleInsertOrder(_orderAddData);
                 // Save and Commit
                 await _createOrderUnitOfWork.Commit();
                 return OrderResult.Success;
@@ -82,6 +75,14 @@ namespace UseCase.Order.Commands.Handlers
                 await _createOrderUnitOfWork.Cancel();
                 return OrderResult.Faild;
             }
+        }
+
+        private async Task HandleInsertOrder(Entities.Order _orderAddData)
+        {
+            _orderAddData.OrderID = Guid.NewGuid().ToString();
+            _orderAddData.TotalQty = _orderAddData.GetTotalQty();
+            _orderAddData.TotalOrder = _orderAddData.GetFinalPrice();
+            await _createOrderUnitOfWork._orderRepository.InsertAsync(_orderAddData);
         }
     }
 }

@@ -1,8 +1,6 @@
-﻿using Entities;
-using Entities.Dtos;
+﻿using Entities.Dtos;
 using Entities.Respositories;
 using Infrastructure.MySQL.Repositories.Base;
-using Infrastructure.MySQL.Repositories.Pagination;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.MySQL.Repositories
@@ -13,7 +11,7 @@ namespace Infrastructure.MySQL.Repositories
         public ProductRepository(OrderDbContext orderDbContext) : base(orderDbContext)
         {
             Console.WriteLine("DbContext:ProductRepository" + orderDbContext.GetHashCode().ToString());
-            _context = orderDbContext;  
+            _context = orderDbContext;
         }
 
         public async Task<IEnumerable<Entities.Product>> SelectAsync(ProductQueryParams _params)

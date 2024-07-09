@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uFuZC3NSvFthdv+hceiQmUhoCo8WGB+rm7vDx1o9mvBRkueOt3VCbJMu6/hnnYad1XjJKHpL2kdgqs2El8c06g==",
+  "dgSpecHash": "+1ZRIaNhTpTnt2gxwlRof3Em7KOfXmOswbmWwemoL3qNFb1/lNYLZMdqWIMscBQfR+1s2bDnTedWQPK856O2Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

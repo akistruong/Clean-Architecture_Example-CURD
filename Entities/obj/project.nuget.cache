@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6pOQhhgkTqYejbtcJezQRQDfSnx8pNCzTLfEe0bvPR/L3DQblN01rNRvBAmyqX8gq7yhqiooRHeUH/1kBF9Q5Q==",
+  "dgSpecHash": "uZuICcEq9mKX1VrnWXwIbCc9KQgfn6xJa4dEdYOPKJbQEq+w1xJGsQWUuvq/OAYvyEHmYrNykqw+F9i/BRN4Gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

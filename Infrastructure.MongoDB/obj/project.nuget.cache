@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Pfa6aZV9GyR07fdT3IItVYlnaSA0K4HrH0i/tPuFFwqYtCIiCVdVFriwE9lzviVUnAhjbOdT9bjqxemM2GgJFg==",
+  "dgSpecHash": "ULD2vQ2dq9dFIu5jAHX76ndRfzQFcHntyImugAdi6m72zSuAfIQ6cAKLxcsU5Zas2ehuJwj4dscIMHD4Qbs9Sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

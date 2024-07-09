@@ -1,7 +1,7 @@
 ﻿using Entities.Respositories;
+using InterfaceAdapter.Order;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using UseCase.Dtos;
 using UseCase.Order;
 using UseCase.Order.Commands;
 
@@ -27,7 +27,7 @@ namespace Web.Controllers
             return Ok(orders);
         }
         [HttpPost]
-        public async Task<IActionResult> CreateOrder(OrderRequest request)
+        public async Task<IActionResult> CreateOrder(OrderInsertRequest request)
         {
             var result = await _mediator.Send(new PlaceOrderCommand(request));
 

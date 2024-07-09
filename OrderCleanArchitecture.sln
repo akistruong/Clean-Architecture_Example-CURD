@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.MySQL", "Inf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.MongoDB", "Infrastructure.MongoDB\Infrastructure.MongoDB.csproj", "{071ED813-5315-487D-BD83-373175555A96}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAdapter", "InterfaceAdapter\InterfaceAdapter.csproj", "{F4FFA272-540C-494F-9444-3C281CDA2DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.SQLServer", "Infrastructure.SQLServer\Infrastructure.SQLServer.csproj", "{61055428-118A-480B-8F43-BED401B259C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{071ED813-5315-487D-BD83-373175555A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{071ED813-5315-487D-BD83-373175555A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{071ED813-5315-487D-BD83-373175555A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FFA272-540C-494F-9444-3C281CDA2DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FFA272-540C-494F-9444-3C281CDA2DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FFA272-540C-494F-9444-3C281CDA2DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FFA272-540C-494F-9444-3C281CDA2DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61055428-118A-480B-8F43-BED401B259C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61055428-118A-480B-8F43-BED401B259C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61055428-118A-480B-8F43-BED401B259C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61055428-118A-480B-8F43-BED401B259C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

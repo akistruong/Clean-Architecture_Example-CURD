@@ -1,18 +1,13 @@
-﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UseCase.Dtos;
+﻿using InterfaceAdapter.Product;
+using MediatR;
 
 namespace UseCase.Product.Command
 {
-    public class UpdateProductCommand:IRequest
+    public class UpdateProductCommand : IRequest
     {
-        public readonly ProductRequest _request;
+        public readonly ProductUpdateRequest _request;
 
-        public UpdateProductCommand(ProductRequest request)
+        public UpdateProductCommand(ProductUpdateRequest request)
         {
             _request = request;
         }

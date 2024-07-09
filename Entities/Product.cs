@@ -22,5 +22,9 @@ namespace Entities
             return this.Qty < 5 ? true : false;
         }
         public List<Iventory>? Iventories { get; set; }
+        public Product Clone()
+        {
+            return (Product)this.MemberwiseClone();
+        }
     }
 }
