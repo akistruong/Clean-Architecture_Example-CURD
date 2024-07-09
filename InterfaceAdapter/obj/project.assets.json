@@ -298,11 +298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\InterfaceAdapter\\InterfaceAdapter.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
       "projectName": "InterfaceAdapter",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\InterfaceAdapter\\InterfaceAdapter.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\InterfaceAdapter\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -319,8 +319,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
             }
           }
         }

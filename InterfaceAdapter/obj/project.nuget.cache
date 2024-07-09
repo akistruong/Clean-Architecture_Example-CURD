@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FyMP0V+6CxHrUNaHtv05HBK2lBwIsdScIs7srKnAEwiZ4q1fVbHwSIyO+CI1McSYQNrZ64b7RcPjwYzu0nxeug==",
+  "dgSpecHash": "ufpzs3nfAV7Tryr7IiBKXnkrM3hjwJe0l3O/u52hZ4MuIRdZnrbET3631feCu33NTvjIhTXHrxaYlQ7j70iuzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\InterfaceAdapter\\InterfaceAdapter.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

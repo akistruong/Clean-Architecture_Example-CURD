@@ -7,18 +7,10 @@ using Infrastructure.MongoDB.Repositories.Product;
 using Infrastructure.MongoDB.Repositories.UnitOfWork.Order;
 using Infrastructure.MongoDB.Repositories.UnitOfWork.Product;
 using Infrastructure.MySQL;
-using Infrastructure.MySQL.Repositories;
-using Infrastructure.MySQL.Repositories.Pagination.Product;
-using Infrastructure.MySQL.UnitOfWork.Base;
-using Infrastructure.MySQL.UnitOfWork.Order;
-using Infrastructure.MySQL.UnitOfWork.Product;
 using Infrastructure.SQLServer;
-using Infrastructure.SQLServer.Repositories;
-using Infrastructure.SQLServer.UnitOfWork.Product;
 using System.Net;
 using System.Reflection;
 using UseCase.Order.Commands.Handlers;
-using UseCase.Pagination.Product;
 using UseCase.Product.Command.Handler;
 using UseCase.Product.Query.Handler;
 using UseCase.Product.UnitOfWork;
@@ -27,7 +19,7 @@ using UseCase.UnitOfWork.Order;
 using UseCase.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
-var Database = "SQLServer";
+var Database = "MYSQL";
 // Add services to the container.
 builder.Services.AddAutoMapper(Assembly.Load("InterfaceAdapter"));
 
@@ -63,7 +55,6 @@ if (Database == "MYSQL")
     /*IVENTORY*/
     builder.Services.AddTransient<IIventoryRepository, Infrastructure.MySQL.Repositories.IventoryRepository>();
     /*PAGINATION*/
-    builder.Services.AddTransient<IProductPagination, ProductPagination>();
     //UnitOfWork
     builder.Services.AddTransient<IUnitOfWorkBase, Infrastructure.MySQL.UnitOfWork.Base.UnitOfWorkBase>();
 }

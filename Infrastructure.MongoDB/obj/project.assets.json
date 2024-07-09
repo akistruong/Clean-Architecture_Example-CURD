@@ -1101,11 +1101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
       "projectName": "Infrastructure.MongoDB",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1122,11 +1122,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Entities\\Entities.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"
             }
           }
         }

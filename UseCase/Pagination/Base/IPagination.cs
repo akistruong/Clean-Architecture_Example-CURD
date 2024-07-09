@@ -9,6 +9,6 @@ namespace UseCase.Pagination.Base
     public interface IPagination<T>
     {
         
-        public IEnumerable<T> Excute(IEnumerable<T> _source,int _limit, int _page);
+        public IEnumerable<T> Build();
     }
 }

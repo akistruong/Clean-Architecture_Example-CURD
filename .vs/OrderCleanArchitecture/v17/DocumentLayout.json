@@ -1,50 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|c:\\users\\lenovo\\desktop\\clean-architecture_example-curd\\infrastructure.mysql\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\usecase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\usecase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture_example-curd\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\pagination\\paginationbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture_example-curd\\usecase\\pagination\\paginationbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\pagination\\paginationbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{071ED813-5315-487D-BD83-373175555A96}|Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\infrastructure.mongodb\\infrastructure.mongodb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{071ED813-5315-487D-BD83-373175555A96}|Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj|solutionrelative:infrastructure.mongodb\\infrastructure.mongodb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture_example-curd\\usecase\\pagination\\base\\ipagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\pagination\\base\\ipagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\infrastructure.mysql\\infrastructure.mysql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\infrastructure.mysql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|c:\\users\\lenovo\\desktop\\clean-architecture_example-curd\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\infrastructure.sqlserver\\infrastructure.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\infrastructure.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture_example-curd\\usecase\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\usecase\\product\\command\\handler\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture_example-curd\\usecase\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|c:\\users\\lenovo\\desktop\\clean-architecture_example-curd\\usecase\\product\\command\\handler\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\command\\handler\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4FFA272-540C-494F-9444-3C281CDA2DAA}|InterfaceAdapter\\InterfaceAdapter.csproj|c:\\users\\lenovo\\desktop\\clean-architecture\\ordercleanarchitecture\\interfaceadapter\\interfaceadapter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F4FFA272-540C-494F-9444-3C281CDA2DAA}|InterfaceAdapter\\InterfaceAdapter.csproj|solutionrelative:interfaceadapter\\interfaceadapter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,145 +42,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Infrastructure.MySQL.csproj",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
-              "RelativeToolTip": "Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBYAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-09T09:55:20.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InterfaceAdapter.csproj",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\InterfaceAdapter\\InterfaceAdapter.csproj",
-              "RelativeDocumentMoniker": "InterfaceAdapter\\InterfaceAdapter.csproj",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\InterfaceAdapter\\InterfaceAdapter.csproj",
-              "RelativeToolTip": "InterfaceAdapter\\InterfaceAdapter.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-09T09:52:42.678Z",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Infrastructure.MySQL\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T10:34:07.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UseCase.csproj",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj",
-              "RelativeDocumentMoniker": "UseCase\\UseCase.csproj",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\UseCase.csproj",
-              "RelativeToolTip": "UseCase\\UseCase.csproj",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-09T09:51:49.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Title": "IPagination.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Pagination\\Base\\IPagination.cs",
+              "RelativeDocumentMoniker": "UseCase\\Pagination\\Base\\IPagination.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Pagination\\Base\\IPagination.cs",
+              "RelativeToolTip": "UseCase\\Pagination\\Base\\IPagination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T17:12:31.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Infrastructure.SQLServer.csproj",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
-              "RelativeToolTip": "Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-09T09:55:10.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Web\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAqwCgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T17:15:08.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Infrastructure.MongoDB",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
-              "RelativeDocumentMoniker": "Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
-              "RelativeToolTip": "Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-09T09:55:53.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaginationBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Pagination\\PaginationBuilder.cs",
-              "RelativeDocumentMoniker": "UseCase\\Pagination\\PaginationBuilder.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Pagination\\PaginationBuilder.cs",
-              "RelativeToolTip": "UseCase\\Pagination\\PaginationBuilder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T09:56:24.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T10:32:02.722Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderValidator.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Validators\\OrderValidator.cs",
-              "RelativeDocumentMoniker": "UseCase\\Validators\\OrderValidator.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Validators\\OrderValidator.cs",
-              "RelativeToolTip": "UseCase\\Validators\\OrderValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T09:58:10.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T17:12:31.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T17:15:08.842Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductValidator.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Validators\\ProductValidator.cs",
-              "RelativeDocumentMoniker": "UseCase\\Validators\\ProductValidator.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Validators\\ProductValidator.cs",
-              "RelativeToolTip": "UseCase\\Validators\\ProductValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "PaginationBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Pagination\\PaginationBuilder.cs",
+              "RelativeDocumentMoniker": "UseCase\\Pagination\\PaginationBuilder.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Pagination\\PaginationBuilder.cs",
+              "RelativeToolTip": "UseCase\\Pagination\\PaginationBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T09:58:09.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T09:56:24.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "OrderValidator.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Validators\\OrderValidator.cs",
+              "RelativeDocumentMoniker": "UseCase\\Validators\\OrderValidator.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Validators\\OrderValidator.cs",
+              "RelativeToolTip": "UseCase\\Validators\\OrderValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T09:58:10.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "UseCase\\Validators\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "UseCase\\Validators\\ProductValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T09:58:09.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UpdateProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
               "RelativeToolTip": "UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lMApDvPpnL6Ls8Bq1ckKDNec+w2wgk5ePuhELG4ktGBQbm2Ah4NF2GUDp01WjRJYuxyxmqXJ19zCIYBcY2rXnA==",
+  "dgSpecHash": "OAUjCZB/57qgrTUrzT2NVtqiczZJnhABYrWtdTHDCtHIkOVfoKdQvXN+qqHiNi4TDLA5VMbQGhOoDwxYPes6Vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-architecture\\OrderCleanArchitecture\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
