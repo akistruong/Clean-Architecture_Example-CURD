@@ -19,7 +19,10 @@ namespace UseCase.Pagination
             return _source;
         }
 
-      
+        public IEnumerable<T> Excute(IEnumerable<T> _source, int _limit, int _page)
+        {
+            throw new NotImplementedException();
+        }
 
         public IPagination<T> Limit(int limit)
         {
