@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {}
+    "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+    "D:\\Code\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Code\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\obj\\",
+        "outputPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
+    "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
+        "projectUniqueName": "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
         "projectName": "InterfaceAdapter",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
+        "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\obj\\",
+        "outputPath": "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,8 +106,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
+              "D:\\Code\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+    "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj",
+        "projectUniqueName": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj",
         "projectName": "UseCase",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj",
+        "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\obj\\",
+        "outputPath": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -176,11 +176,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
+              "D:\\Code\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj"
+              "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
+                "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Z4FWak6hdG4PBlTK4m7hdab1Yl0iGl1cvNGLGIPE8/BLyOBss0FWznijXsyzJMRoW19+zWbaCqipVkuCmw/Qw==",
+  "dgSpecHash": "S99RE1q9Yo2nE125Ty40ExyjPlxiSJPDo+lDgB9kFQmiHDl4uEloywfOr3nfovbUsR3BtIoNzNRu7gzzZXI/ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Web.csproj",
+  "projectFilePath": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",

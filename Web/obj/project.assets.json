@@ -5918,11 +5918,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Web.csproj",
+      "projectUniqueName": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\Web.csproj",
+      "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Web\\obj\\",
+      "outputPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5939,20 +5939,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj"
+            "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj": {
+              "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj"
+            "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj": {
+              "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj"
+            "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj": {
+              "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj"
+            "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
+              "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"
+            "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
+              "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"
             }
           }
         }
