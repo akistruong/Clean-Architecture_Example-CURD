@@ -41,6 +41,7 @@ namespace UseCase.Product.Command.Handler
                 //Insert Iventory
                 await _unitOfWork._iventoryRepository.InsertAsync(_iventory);
                 await _unitOfWork.Commit();
+                return;
             }
             catch (Exception ex)
             {

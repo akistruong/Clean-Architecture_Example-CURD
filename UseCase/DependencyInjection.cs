@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
+using UseCase.Behaviors;
 using UseCase.Order.Commands;
 using UseCase.Order.Commands.Handlers;
 using UseCase.Order.Validators;
@@ -28,6 +29,7 @@ namespace UseCase
                 cfg.RegisterServicesFromAssembly(typeof(CreateProductCommandHandler).Assembly);
                 cfg.RegisterServicesFromAssembly(typeof(UpdateProductCommandHandler).Assembly);
                 cfg.RegisterServicesFromAssembly(typeof(DeleteProductCommandHandler).Assembly);
+                cfg.AddOpenBehavior(typeof(ExceptionBehavior<,>));
                 //ORDER
                 cfg.RegisterServicesFromAssembly(typeof(PlaceOrderCommandHandler).Assembly);
 

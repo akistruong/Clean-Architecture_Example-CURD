@@ -1,6 +1,5 @@
-﻿using Entities;
-using Entities.Respositories;
-using Infrastructure.MySQL.Repositories.Base;
+﻿using Infrastructure.MySQL.Repositories.Base;
+using UseCase.Interfaces.Respositories;
 
 namespace Infrastructure.MySQL.Repositories
 {

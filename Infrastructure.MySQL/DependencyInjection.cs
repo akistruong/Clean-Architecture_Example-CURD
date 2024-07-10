@@ -1,8 +1,9 @@
-﻿using Entities.Respositories;
+﻿using Infrastructure.MySQL.UnitOfWork.Product;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using UseCase.Interfaces.Respositories;
+using UseCase.Interfaces.UnitOfWork.Product;
 using UseCase.Product.UnitOfWork;
-using UseCase.UnitOfWork.Base;
 using UseCase.UnitOfWork.Order;
 
 namespace Infrastructure.MySQL
@@ -17,7 +18,8 @@ namespace Infrastructure.MySQL
             });
             /*PRODUCT*/
             services.AddTransient<IProductRepository, Repositories.ProductRepository>();
-            services.AddTransient<ICreateProductUnitOfWork, UnitOfWork.Product.CreateProductUnitOfWork>();
+            services.AddTransient<ICreateProductUnitOfWork, CreateProductUnitOfWork>();
+            services.AddTransient<IUpdateProductUnitOfWork, UpdateProductUnitOfWork>();
             /* ORDER*/
             services.AddTransient<IOrderRepository, Repositories.OrderRepository>();
             services.AddTransient<ICreateOrderUnitOfWork, UnitOfWork.Order.CreateOrderUnitOfWork>();
@@ -26,7 +28,6 @@ namespace Infrastructure.MySQL
             /*PAGINATION*/
             //builder.Services.AddTransient<IProductPagination, ProductPagination>();
             //UnitOfWork
-            services.AddTransient<IUnitOfWorkBase, UnitOfWork.Base.UnitOfWorkBase>();
             return services;
         }
     }

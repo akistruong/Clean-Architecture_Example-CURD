@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UseCase.UnitOfWork.Base;
+﻿using UseCase.Interfaces.UnitOfWork.Base;
 
 namespace Infrastructure.MySQL.UnitOfWork.Base
 {
@@ -19,13 +14,13 @@ namespace Infrastructure.MySQL.UnitOfWork.Base
 
         public async Task Begin()
         {
-            await _orderDbContext.Database.BeginTransactionAsync();    
+            await _orderDbContext.Database.BeginTransactionAsync();
         }
 
         public async Task Cancel()
         {
-            await _orderDbContext.DisposeAsync();   
-            await _orderDbContext.Database.RollbackTransactionAsync();  
+            await _orderDbContext.Database.RollbackTransactionAsync();
+
         }
 
         public async Task Commit()

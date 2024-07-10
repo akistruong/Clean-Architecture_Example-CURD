@@ -1,6 +1,5 @@
-﻿using Entities.Respositories;
-using Infrastructure.SQLServer.Repositories;
-using Infrastructure.SQLServer.UnitOfWork.Base;
+﻿using Infrastructure.SQLServer.UnitOfWork.Base;
+using UseCase.Interfaces.Respositories;
 using UseCase.UnitOfWork.Order;
 
 namespace Infrastructure.SQLServer.UnitOfWork.Order

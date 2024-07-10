@@ -1,7 +1,7 @@
-﻿using Entities.Dtos;
-using Entities.Respositories;
-using Infrastructure.SQLServer.Repositories.Base;
+﻿using Infrastructure.SQLServer.Repositories.Base;
 using Microsoft.EntityFrameworkCore;
+using UseCase.Dtos;
+using UseCase.Interfaces.Respositories;
 
 namespace Infrastructure.SQLServer.Repositories
 {
@@ -14,7 +14,7 @@ namespace Infrastructure.SQLServer.Repositories
             _context = orderDbContext;
         }
 
-        public async Task<IEnumerable<Entities.Product>> SelectAsync(ProductQueryParams _params)
+        public async Task<IEnumerable<Entities.Product>> SelectAsync(ProductQueryDTO _params)
         {
             IQueryable<Entities.Product> products = _context.Products;
             if (_params.MinPrice >= 0 && _params.MaxPrice > 0)

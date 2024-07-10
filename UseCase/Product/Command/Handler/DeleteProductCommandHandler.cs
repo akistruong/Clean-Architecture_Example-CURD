@@ -1,11 +1,5 @@
-﻿
-using Entities.Respositories;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
+using UseCase.Interfaces.Respositories;
 
 namespace UseCase.Product.Command.Handler
 {
@@ -27,7 +21,9 @@ namespace UseCase.Product.Command.Handler
                 ArgumentNullException.ThrowIfNull(product);
                 _productRepository.Delete(product);
                 await _productRepository.SaveChangesAsync();
-            }catch (Exception ex) {
+            }
+            catch (Exception ex)
+            {
                 throw ex;
             }
         }

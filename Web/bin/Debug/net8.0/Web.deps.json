@@ -1224,17 +1224,6 @@
           "Entities.dll": {}
         }
       },
-      "Infrastructure.MongoDB/1.0.0": {
-        "dependencies": {
-          "Entities": "1.0.0",
-          "MongoDB.Driver": "2.27.0",
-          "MongoDB.Driver.Core": "2.27.0",
-          "UseCase": "1.0.0"
-        },
-        "runtime": {
-          "Infrastructure.MongoDB.dll": {}
-        }
-      },
       "Infrastructure.MySQL/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
@@ -2039,11 +2028,6 @@
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
     "Entities/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Infrastructure.MongoDB/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
