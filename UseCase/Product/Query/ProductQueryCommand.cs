@@ -1,4 +1,6 @@
-﻿using Entities.Dtos;
+﻿
+using Entities.Dtos;
+using InterfaceAdapter.Product;
 using MediatR;
 
 namespace UseCase.Product.Query
@@ -12,7 +14,5 @@ namespace UseCase.Product.Query
         {
             this.queryParams = queryParams;
         }
-
-
     }
 }

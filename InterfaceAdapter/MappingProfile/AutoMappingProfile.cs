@@ -12,8 +12,8 @@ namespace InterfaceAdapter.MappingProfile
             this.CreateMap<ProductUpdateRequest, Entities.Product>()
                 .ConvertUsing(new NullValueIgnoringConverter<ProductUpdateRequest, Entities.Product>());
             this.CreateMap<ProductInsertRequest, Entities.Product>();
-            CreateMap<OrderInsertRequest, Entities.Order>();
-            CreateMap<OrderItemRequest, Entities.OrderItem>();
+            this.CreateMap<OrderInsertRequest, Entities.Order>();
+            this.CreateMap<OrderItemRequest, Entities.OrderItem>();
         }
     }
 }

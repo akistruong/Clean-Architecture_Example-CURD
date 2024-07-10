@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -13,10 +14,15 @@ namespace UseCase.Order.Commands.Handlers
     {
         private readonly ICreateOrderUnitOfWork _createOrderUnitOfWork;
         private IMapper _mapper;
-        public PlaceOrderCommandHandler(ICreateOrderUnitOfWork createOrderUnitOfWork, IMapper mapper)
+        private IValidator<Entities.Order> _validator;
+
+
+
+        public PlaceOrderCommandHandler(ICreateOrderUnitOfWork createOrderUnitOfWork, IMapper mapper, IValidator<Entities.Order> validator)
         {
             _createOrderUnitOfWork = createOrderUnitOfWork;
             _mapper = mapper;
+            _validator = validator;
         }
         public async Task<OrderResult> Handle(PlaceOrderCommand request, CancellationToken cancellationToken)
         {
@@ -24,12 +30,15 @@ namespace UseCase.Order.Commands.Handlers
             {
                 await _createOrderUnitOfWork.Begin();
                 var _orderAddData = _mapper.Map<Entities.Order>(request._request);
+                var _orderValidation = _validator.Validate(_orderAddData);
+                if (!_orderValidation.IsValid) {
+                    return OrderResult.Faild;
+                }
                 var _items = _orderAddData.Items;
                 //Update qty item;
                 for (int i = 0; i < _items.Count; i++)
                 {
                     var _item = _items[i];   
-                    if (_item.Qty <= 0) return OrderResult.QtyInvalid;
                     //Product Cart Quantity 
                     var _productCartQty = _item.Qty;
                     //Finded Iventory
