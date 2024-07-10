@@ -1,6 +1,6 @@
-﻿using Entities.Dtos;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using UseCase.Dtos;
 using UseCase.Product.Command;
 using UseCase.Product.Query;
 

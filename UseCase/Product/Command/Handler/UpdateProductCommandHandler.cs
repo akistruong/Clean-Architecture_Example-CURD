@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Entities.Respositories;
 using FluentValidation;
 using MediatR;
+using UseCase.Interfaces.Respositories;
 using UseCase.UnitOfWork.Base;
 
 namespace UseCase.Product.Command.Handler
@@ -37,9 +37,9 @@ namespace UseCase.Product.Command.Handler
                 ArgumentNullException.ThrowIfNull(_productFinded);
                 _isQtyProductChange = _productFinded.Qty != _productRequest.Qty;
                 var _product = _mapper.Map(_productRequest, _productFinded);
-               
+
                 //Handle if qty change
-                if( _isQtyProductChange ) await HandleIfQtyChange(_product);
+                if (_isQtyProductChange) await HandleIfQtyChange(_product);
                 _productRepository.Update(_product);
                 //Commit transaction
                 await unitOfWork.Commit();
@@ -52,7 +52,7 @@ namespace UseCase.Product.Command.Handler
             }
         }
 
-        private async Task HandleIfQtyChange( Entities.Product _product)
+        private async Task HandleIfQtyChange(Entities.Product _product)
         {
             var _iventoryFind = await _iventoryRepository.GetIventoryByProductID(_product.ProductID);
             ArgumentNullException.ThrowIfNull(_iventoryFind);

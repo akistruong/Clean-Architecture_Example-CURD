@@ -1,7 +1,7 @@
-﻿using Entities.Dtos;
-using Entities.Respositories;
-using Infrastructure.MySQL.Repositories.Base;
+﻿using Infrastructure.MySQL.Repositories.Base;
 using Microsoft.EntityFrameworkCore;
+using UseCase.Dtos;
+using UseCase.Interfaces.Respositories;
 
 namespace Infrastructure.MySQL.Repositories
 {

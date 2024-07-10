@@ -1,11 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MySqlX.XDevAPI.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Entities.Respositories.Base;
+using UseCase.Interfaces.Respositories.Base;
 
 namespace Infrastructure.MySQL.Repositories.Base
 {
@@ -28,7 +22,7 @@ namespace Infrastructure.MySQL.Repositories.Base
             await OrderDbContext.Set<T>().AddAsync(entity);
         }
 
-        public virtual Task SaveChanges(T entity)=> OrderDbContext.SaveChangesAsync();
+        public virtual Task SaveChanges(T entity) => OrderDbContext.SaveChangesAsync();
 
         public async Task SaveChangesAsync()
         {
@@ -44,8 +38,8 @@ namespace Infrastructure.MySQL.Repositories.Base
 
         public virtual async Task<T> SelectAsync(string ID)
         {
-            var result =await OrderDbContext.Set<T>().FindAsync(ID);
-            if(result is not null)
+            var result = await OrderDbContext.Set<T>().FindAsync(ID);
+            if (result is not null)
             {
                 return result;
             }
@@ -54,16 +48,16 @@ namespace Infrastructure.MySQL.Repositories.Base
 
         public virtual async Task<IReadOnlyList<T>> SelectAsync()
         {
-            var result =await OrderDbContext.Set<T>().ToListAsync();
+            var result = await OrderDbContext.Set<T>().ToListAsync();
             return result;
         }
 
         public virtual T Update(T entity)
         {
-            OrderDbContext.Set<T>().Entry(entity).State = EntityState.Modified;   
+            OrderDbContext.Set<T>().Entry(entity).State = EntityState.Modified;
             return entity;
         }
 
-       
+
     }
 }

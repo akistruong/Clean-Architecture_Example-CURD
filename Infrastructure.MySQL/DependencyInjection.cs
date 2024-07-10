@@ -1,6 +1,6 @@
-﻿using Entities.Respositories;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using UseCase.Interfaces.Respositories;
 using UseCase.Product.UnitOfWork;
 using UseCase.UnitOfWork.Base;
 using UseCase.UnitOfWork.Order;
