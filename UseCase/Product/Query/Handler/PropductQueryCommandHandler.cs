@@ -1,5 +1,6 @@
-﻿using Entities.Respositories;
-using MediatR;
+﻿using MediatR;
+using UseCase.Interfaces.Respositories;
+
 namespace UseCase.Product.Query.Handler
 {
     public class PropductQueryCommandHandler : IRequestHandler<ProductQueryCommand, IEnumerable<Entities.Product>>

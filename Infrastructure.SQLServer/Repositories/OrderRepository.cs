@@ -1,5 +1,5 @@
-﻿using Entities.Respositories;
-using Infrastructure.SQLServer.Repositories.Base;
+﻿using Infrastructure.SQLServer.Repositories.Base;
+using UseCase.Interfaces.Respositories;
 
 namespace Infrastructure.SQLServer.Repositories
 {

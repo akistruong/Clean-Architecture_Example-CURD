@@ -1,6 +1,6 @@
-﻿using Entities.Respositories;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using UseCase.Interfaces.Respositories;
 using UseCase.Order;
 using UseCase.Order.Commands;
 
