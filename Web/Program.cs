@@ -1,20 +1,17 @@
-using FluentValidation;
 using Infrastructure.MySQL;
 using Infrastructure.SQLServer;
 using System.Net;
 using System.Reflection;
 using UseCase;
-using UseCase.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 var Database = "MYSQL";
 // Add services to the container.
-builder.Services.AddAutoMapper(Assembly.Load("InterfaceAdapter"));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // ADD USECASE SERVICE
-builder.Services.AddUseCaseServices();  
+builder.Services.AddUseCaseServices();
 if (Database == "MYSQL")
 {
     builder.Services.AddMySQLInfrastructureServices();

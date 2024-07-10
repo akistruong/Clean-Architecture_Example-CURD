@@ -1,4 +1,5 @@
 ﻿using Entities.Respositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using UseCase.Product.UnitOfWork;
 using UseCase.UnitOfWork.Base;
@@ -10,7 +11,10 @@ namespace Infrastructure.MySQL
     {
         public static IServiceCollection AddMySQLInfrastructureServices(this IServiceCollection services)
         {
-            services.AddDbContext<OrderDbContext>();
+            services.AddDbContext<OrderDbContext>(option =>
+            {
+                option.UseMySQL("server=127.0.0.1;uid=root;pwd=123456;database=ordermodule;Allow User Variables=True");
+            });
             /*PRODUCT*/
             services.AddTransient<IProductRepository, Repositories.ProductRepository>();
             services.AddTransient<ICreateProductUnitOfWork, UnitOfWork.Product.CreateProductUnitOfWork>();

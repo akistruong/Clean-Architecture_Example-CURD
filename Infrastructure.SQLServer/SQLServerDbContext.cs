@@ -5,13 +5,14 @@ namespace Infrastructure.SQLServer
 {
     public class SQLServerDbContext : DbContext
     {
+        public SQLServerDbContext(DbContextOptions options) : base(options)
+        {
+        }
+
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Iventory> Iventories { get; set; }
-        public SQLServerDbContext(DbContextOptions options) : base(options)
-        {
-        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

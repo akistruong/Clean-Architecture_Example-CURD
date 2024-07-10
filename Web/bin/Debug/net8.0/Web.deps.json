@@ -11,7 +11,6 @@
           "Infrastructure.MongoDB": "1.0.0",
           "Infrastructure.MySQL": "1.0.0",
           "Infrastructure.SQLServer": "1.0.0",
-          "InterfaceAdapter": "1.0.0",
           "MediatR": "12.3.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.6",
           "Swashbuckle.AspNetCore": "6.4.0",
@@ -1257,21 +1256,11 @@
           "Infrastructure.SQLServer.dll": {}
         }
       },
-      "InterfaceAdapter/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "13.0.1",
-          "Entities": "1.0.0"
-        },
-        "runtime": {
-          "InterfaceAdapter.dll": {}
-        }
-      },
       "UseCase/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Entities": "1.0.0",
           "FluentValidation": "11.9.2",
-          "InterfaceAdapter": "1.0.0",
           "MediatR": "12.3.0"
         },
         "runtime": {
@@ -2065,11 +2054,6 @@
       "sha512": ""
     },
     "Infrastructure.SQLServer/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "InterfaceAdapter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

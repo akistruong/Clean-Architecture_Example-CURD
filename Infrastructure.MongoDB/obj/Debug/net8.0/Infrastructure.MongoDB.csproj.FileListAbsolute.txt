@@ -42,11 +42,9 @@ D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\Infrastructure.MongoDB.dll
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\Infrastructure.MongoDB.pdb
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\Entities.dll
-D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\InterfaceAdapter.dll
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\UseCase.dll
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\Entities.pdb
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\UseCase.pdb
-D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\bin\Debug\net8.0\InterfaceAdapter.pdb
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\obj\Debug\net8.0\Infrastructure.MongoDB.csproj.AssemblyReference.cache
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\obj\Debug\net8.0\Infrastructure.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
 D:\Code\Clean-Architecture_Example-CURD\Infrastructure.MongoDB\obj\Debug\net8.0\Infrastructure.MongoDB.AssemblyInfoInputs.cache

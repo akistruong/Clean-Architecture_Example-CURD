@@ -1,5 +1,4 @@
 ﻿using Entities.Respositories;
-using InterfaceAdapter.Order;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using UseCase.Order;
@@ -27,9 +26,9 @@ namespace Web.Controllers
             return Ok(orders);
         }
         [HttpPost]
-        public async Task<IActionResult> CreateOrder(OrderInsertRequest request)
+        public async Task<IActionResult> CreateOrder(PlaceOrderCommand request)
         {
-            var result = await _mediator.Send(new PlaceOrderCommand(request));
+            var result = await _mediator.Send(request);
 
             return Ok((OrderResult)result);
         }

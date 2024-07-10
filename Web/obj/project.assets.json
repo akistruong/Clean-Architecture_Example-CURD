@@ -2105,20 +2105,6 @@
           "bin/placeholder/Infrastructure.SQLServer.dll": {}
         }
       },
-      "InterfaceAdapter/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "AutoMapper": "13.0.1",
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InterfaceAdapter.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InterfaceAdapter.dll": {}
-        }
-      },
       "UseCase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2126,7 +2112,6 @@
           "AutoMapper": "13.0.1",
           "Entities": "1.0.0",
           "FluentValidation": "11.9.2",
-          "InterfaceAdapter": "1.0.0",
           "MediatR": "12.3.0"
         },
         "compile": {
@@ -5889,11 +5874,6 @@
       "path": "../Infrastructure.SQLServer/Infrastructure.SQLServer.csproj",
       "msbuildProject": "../Infrastructure.SQLServer/Infrastructure.SQLServer.csproj"
     },
-    "InterfaceAdapter/1.0.0": {
-      "type": "project",
-      "path": "../InterfaceAdapter/InterfaceAdapter.csproj",
-      "msbuildProject": "../InterfaceAdapter/InterfaceAdapter.csproj"
-    },
     "UseCase/1.0.0": {
       "type": "project",
       "path": "../UseCase/UseCase.csproj",
@@ -5905,7 +5885,6 @@
       "Infrastructure.MongoDB >= 1.0.0",
       "Infrastructure.MySQL >= 1.0.0",
       "Infrastructure.SQLServer >= 1.0.0",
-      "InterfaceAdapter >= 1.0.0",
       "MediatR >= 12.3.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.6",
       "Swashbuckle.AspNetCore >= 6.4.0",
@@ -5947,9 +5926,6 @@
             },
             "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj": {
               "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj"
-            },
-            "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj": {
-              "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\InterfaceAdapter\\InterfaceAdapter.csproj"
             },
             "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj": {
               "projectPath": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj"

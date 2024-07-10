@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+uF7SX/fBeuSZAIZErCpgws3BPCUICCBPM949qBUjQH0cPjdbElbsqzLXC1xEfkQQE0TqHdhX//hFd/qQzNzXg==",
+  "dgSpecHash": "/X5x3N+2vxzh1h/U/TP2L2Rd6n54ghU6HV4sam82NaRXXqKZ8KLLprgXjMECcO3oKxnWkjElD9qCFznB77xfNQ==",
   "success": true,
   "projectFilePath": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Infrastructure.MySQL.csproj",
   "expectedPackageFiles": [
