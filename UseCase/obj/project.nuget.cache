@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dec7wl3eOMT/vx1m7aSPmDwEBEVpAwCuGAQgEsFNDkghz91kWGUpbmHso/3Ki+I4+IjDbAG0OlRKm1CJCUVkBw==",
+  "dgSpecHash": "mx6iuBx2TAjfIJCkCgV++/UPrF+0YIQ/o/eKwOpdTtD/gYdMGd/apieHDL9A2/0WATQFffWzTONAe7sHbbxjxA==",
   "success": true,
   "projectFilePath": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UseCase.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NT7ix4kthwg/AMXTVp1gT6sX1AADqV4GMb/eWImDBN/imYK6KKTEV8Btik9fJauLDu2TvdajrN1glNo8Vd94oQ==",
+  "dgSpecHash": "3KPM0DbG+4MDtT10tbQWfCuTeqTRZ9EUURr0NX48MaeEA4BXQbrf/38GCRXCchh+4V9rP796GCgJnYx4o6otGg==",
   "success": true,
   "projectFilePath": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj",
   "expectedPackageFiles": [

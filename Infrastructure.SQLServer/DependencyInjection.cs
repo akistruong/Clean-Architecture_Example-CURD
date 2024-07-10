@@ -1,4 +1,5 @@
 ﻿using Entities.Respositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using UseCase.Product.UnitOfWork;
@@ -11,7 +12,9 @@ namespace Infrastructure.SQLServer
     {
         public static IServiceCollection AddSQLServerInfrastructureServices(this IServiceCollection services)
         {
-            services.AddDbContext<SQLServerDbContext>();
+            services.AddDbContext<SQLServerDbContext>
+                (option=>
+                option.UseSqlServer("Server=LAPTOP-FTH3N2IO;Database=OrderExample;User Id=sa;Password=123456;MultipleActiveResultSets=true;Trusted_Connection=True;TrustServerCertificate=True;"));
             /*PRODUCT*/
             services.AddTransient<IProductRepository,Repositories.ProductRepository>();
             services.AddTransient<ICreateProductUnitOfWork,UnitOfWork.Product.CreateProductUnitOfWork>();

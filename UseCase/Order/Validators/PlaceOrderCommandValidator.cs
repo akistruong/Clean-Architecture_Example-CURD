@@ -1,15 +1,11 @@
 ﻿using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace UseCase.Validators
+using UseCase.Order.Commands;
+using UseCase.OrderItem.Validators;
+namespace UseCase.Order.Validators
 {
-    public sealed class OrderValidator : AbstractValidator<Entities.Order>
+    public sealed class PlaceOrderCommandValidator : AbstractValidator<PlaceOrderCommand>
     {
-        public OrderValidator()
+        public PlaceOrderCommandValidator()
         {
             this.RuleFor(x => x.TotalOrder).GreaterThan(0);
             this.RuleFor(x => x.TotalQty).GreaterThan(0);

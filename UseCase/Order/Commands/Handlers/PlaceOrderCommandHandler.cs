@@ -14,11 +14,11 @@ namespace UseCase.Order.Commands.Handlers
     {
         private readonly ICreateOrderUnitOfWork _createOrderUnitOfWork;
         private IMapper _mapper;
-        private IValidator<Entities.Order> _validator;
+        private IValidator<PlaceOrderCommand> _validator;
 
 
 
-        public PlaceOrderCommandHandler(ICreateOrderUnitOfWork createOrderUnitOfWork, IMapper mapper, IValidator<Entities.Order> validator)
+        public PlaceOrderCommandHandler(ICreateOrderUnitOfWork createOrderUnitOfWork, IMapper mapper, IValidator<PlaceOrderCommand> validator)
         {
             _createOrderUnitOfWork = createOrderUnitOfWork;
             _mapper = mapper;
@@ -29,11 +29,13 @@ namespace UseCase.Order.Commands.Handlers
             try
             {
                 await _createOrderUnitOfWork.Begin();
-                var _orderAddData = _mapper.Map<Entities.Order>(request._request);
-                var _orderValidation = _validator.Validate(_orderAddData);
-                if (!_orderValidation.IsValid) {
+                var _orderValidation = _validator.Validate(request);
+                if (!_orderValidation.IsValid)
+                {
                     return OrderResult.Faild;
                 }
+                var _orderAddData = _mapper.Map<Entities.Order>(request);
+               
                 var _items = _orderAddData.Items;
                 //Update qty item;
                 for (int i = 0; i < _items.Count; i++)

@@ -1,6 +1,5 @@
 ﻿
 using Entities.Dtos;
-using InterfaceAdapter.Product;
 using MediatR;
 
 namespace UseCase.Product.Query

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b5dG6IAcmn9ejIIv/Ayco052YNtRbiRoN2Dc9Md/2iVDsW+Ptm8fedOR3wSRoaFM2WatFhfnQDPPHbUCQ3/AyQ==",
+  "dgSpecHash": "kiLUarxcwJGDYT25QUcWQwAtQHniDmnM8GKUx+Kz0quZLtN1A+6bDiBfeSnE2RGwBaGWgNb8LfKnyviVLZzI+g==",
   "success": true,
   "projectFilePath": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MongoDB\\Infrastructure.MongoDB.csproj",
   "expectedPackageFiles": [

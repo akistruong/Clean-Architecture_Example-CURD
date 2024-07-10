@@ -1,5 +1,4 @@
 ﻿using Entities.Dtos;
-using InterfaceAdapter.Product;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using UseCase.Product.Command;
@@ -30,15 +29,15 @@ namespace Web.Controllers
             }
         }
         [HttpPost]
-        public async Task<IActionResult> Post(ProductInsertRequest request)
+        public async Task<IActionResult> Post(CreateProductCommand request)
         {
-            await _mediator.Send(new CreateProductCommand(request));
+            await _mediator.Send(request);
             return Ok();
         }
         [HttpPut]
-        public async Task<IActionResult> PutAsync(ProductUpdateRequest request)
+        public async Task<IActionResult> PutAsync(UpdateProductCommand request)
         {
-            await _mediator.Send(new UpdateProductCommand(request));
+            await _mediator.Send(request);
             return Ok(request);
         }
         [HttpDelete]

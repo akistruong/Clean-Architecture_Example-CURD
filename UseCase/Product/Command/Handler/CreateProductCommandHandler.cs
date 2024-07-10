@@ -10,8 +10,8 @@ namespace UseCase.Product.Command.Handler
     {
         private ICreateProductUnitOfWork _unitOfWork;
         private IMapper _mapper;
-        private IValidator<Entities.Product> _validator;
-        public CreateProductCommandHandler(ICreateProductUnitOfWork unitOfWork, IMapper mapper, IValidator<Entities.Product> validator)
+        private IValidator<CreateProductCommand> _validator;
+        public CreateProductCommandHandler(ICreateProductUnitOfWork unitOfWork, IMapper mapper, IValidator<CreateProductCommand> validator)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
@@ -23,9 +23,8 @@ namespace UseCase.Product.Command.Handler
             {
 
                 await _unitOfWork.Begin();
-                var _productAdd = _mapper.Map<Entities.Product>(request.request);
-                var result = await _validator.ValidateAsync(_productAdd);
-
+                var result = await _validator.ValidateAsync(request);
+                var _productAdd = _mapper.Map<Entities.Product>(request);
                 if (!result.IsValid)
                 {
                     throw new Exception();
@@ -36,8 +35,8 @@ namespace UseCase.Product.Command.Handler
                 var _iventory = new Iventory()
                 {
                     ID = Guid.NewGuid().ToString(),
-                    ProductID = request.request.ProductID,
-                    Qty = request.request.Qty,
+                    ProductID = request.ProductID,
+                    Qty = request.Qty,
                 };
                 //Insert Iventory
                 await _unitOfWork._iventoryRepository.InsertAsync(_iventory);

@@ -19,6 +19,5 @@
   </ItemGroup>
 <ItemGroup>
 		<ProjectReference Include="..\Entities\Entities.csproj" />
-    <ProjectReference Include="..\InterfaceAdapter\InterfaceAdapter.csproj" />
 	</ItemGroup>
 </Project>

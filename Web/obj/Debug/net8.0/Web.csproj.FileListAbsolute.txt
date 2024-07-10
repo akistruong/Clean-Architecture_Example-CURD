@@ -502,12 +502,10 @@ D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Entities.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.MongoDB.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.MySQL.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.SQLServer.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\InterfaceAdapter.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\UseCase.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.MongoDB.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.MySQL.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.SQLServer.pdb
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\InterfaceAdapter.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\UseCase.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Entities.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\Web.csproj.AssemblyReference.cache
