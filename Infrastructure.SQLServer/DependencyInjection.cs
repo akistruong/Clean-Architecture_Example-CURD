@@ -2,7 +2,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using UseCase.Interfaces.Respositories;
 using UseCase.Product.UnitOfWork;
-using UseCase.UnitOfWork.Base;
 using UseCase.UnitOfWork.Order;
 
 namespace Infrastructure.SQLServer
@@ -25,7 +24,6 @@ namespace Infrastructure.SQLServer
             /*PAGINATION*/
             //builder.Services.AddTransient<IProductPagination, ProductPagination>();
             //UnitOfWork
-            services.AddTransient<IUnitOfWorkBase, UnitOfWork.Base.UnitOfWorkBase>();
             return services;
         }
     }

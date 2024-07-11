@@ -1,4 +1,5 @@
-﻿using UseCase.UnitOfWork.Base;
+﻿using UseCase.Interfaces.UnitOfWork.Base;
+
 namespace Infrastructure.SQLServer.UnitOfWork.Base
 {
     public class UnitOfWorkBase : IUnitOfWorkBase
@@ -18,7 +19,6 @@ namespace Infrastructure.SQLServer.UnitOfWork.Base
 
         public async Task Cancel()
         {
-            await _orderDbContext.DisposeAsync();
             await _orderDbContext.Database.RollbackTransactionAsync();
         }
 

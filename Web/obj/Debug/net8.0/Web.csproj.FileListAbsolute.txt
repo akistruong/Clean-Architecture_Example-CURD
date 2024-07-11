@@ -362,12 +362,9 @@ D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Web.runtimeconfig.j
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Web.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Web.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\AutoMapper.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\AWSSDK.Core.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Azure.Core.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Azure.Identity.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\DnsClient.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\FluentValidation.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Google.Protobuf.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Humanizer.dll
@@ -400,14 +397,9 @@ D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Microsoft.OpenApi.d
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\MongoDB.Bson.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\MongoDB.Driver.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\MongoDB.Driver.Core.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\MySql.Data.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\SharpCompress.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Snappier.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -485,9 +477,6 @@ D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win-arm64\
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
@@ -499,11 +488,9 @@ D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win\lib\ne
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Entities.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.MongoDB.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.MySQL.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.SQLServer.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\UseCase.dll
-D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.MongoDB.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.MySQL.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Infrastructure.SQLServer.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\UseCase.pdb
@@ -529,3 +516,5 @@ D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\refint\Web.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\Web.pdb
 D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\Web.genruntimeconfig.cache
 D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\ref\Web.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\Web.MvcApplicationPartsAssemblyInfo.cs
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Newtonsoft.Json.dll

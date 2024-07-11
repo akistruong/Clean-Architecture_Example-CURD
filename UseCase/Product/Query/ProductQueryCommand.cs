@@ -5,10 +5,8 @@ namespace UseCase.Product.Query
 {
     public class ProductQueryCommand : IRequest<IEnumerable<Entities.Product>>
     {
-        public ProductQueryParams queryParams;
-        
-
-        public ProductQueryCommand(ProductQueryParams queryParams)
+        public ProductQueryDTO queryParams;
+        public ProductQueryCommand(ProductQueryDTO queryParams)
         {
             this.queryParams = queryParams;
         }

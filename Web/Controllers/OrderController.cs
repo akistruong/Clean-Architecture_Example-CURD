@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using UseCase.Interfaces.Respositories;
-using UseCase.Order;
 using UseCase.Order.Commands;
 
 namespace Web.Controllers
@@ -30,7 +29,7 @@ namespace Web.Controllers
         {
             var result = await _mediator.Send(request);
 
-            return Ok((OrderResult)result);
+            return Ok(result);
         }
 
     }

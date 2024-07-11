@@ -3,10 +3,11 @@ using Entities;
 using FluentValidation;
 using MediatR;
 using UseCase.Product.UnitOfWork;
+using UseCase.Shared;
 
 namespace UseCase.Product.Command.Handler
 {
-    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand>
+    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,Result>
     {
         private ICreateProductUnitOfWork _unitOfWork;
         private IMapper _mapper;
@@ -17,7 +18,7 @@ namespace UseCase.Product.Command.Handler
             _mapper = mapper;
             _validator = validator;
         }
-        public async Task Handle(CreateProductCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
             try
             {
@@ -27,7 +28,8 @@ namespace UseCase.Product.Command.Handler
                 var _productAdd = _mapper.Map<Entities.Product>(request);
                 if (!result.IsValid)
                 {
-                    throw new Exception();
+                    return Result.Failure(new Error("Validation excception"));
+
                 }
                 //Insert product
                 await _unitOfWork._productRepository.InsertAsync(_productAdd);
@@ -41,10 +43,10 @@ namespace UseCase.Product.Command.Handler
                 //Insert Iventory
                 await _unitOfWork._iventoryRepository.InsertAsync(_iventory);
                 await _unitOfWork.Commit();
+                return Result.Success();
             }
             catch (Exception ex)
             {
-                await _unitOfWork.Cancel();
                 throw ex;
             }
         }

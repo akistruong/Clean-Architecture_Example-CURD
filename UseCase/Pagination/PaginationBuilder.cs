@@ -18,7 +18,6 @@ namespace UseCase.Pagination
             _source = _source.Skip(_skip).Take(_limit);
             return _source;
         }
-
         public IEnumerable<T> Excute(IEnumerable<T> _source, int _limit, int _page)
         {
             throw new NotImplementedException();

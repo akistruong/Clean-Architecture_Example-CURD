@@ -35,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\interfaces\\respositories\\base\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\dtos\\productqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\dtos\\productqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\migrations\\20240628050356_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\migrations\\20240628050356_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\unitofwork\\icreateproductunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\unitofwork\\icreateproductunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\query\\handler\\propductquerycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\query\\handler\\propductquerycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -93,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\command\\handler\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\command\\handler\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\order\\unitofwork\\icreateorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\unitofwork\\icreateorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\repositories\\iventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\unitofwork\\base\\iunitofworkbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\unitofwork\\base\\iunitofworkbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|d:\\code\\clean-architecture_example-curd\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,6 +113,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Dtos\\ProductQueryParams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UseCase\\Dtos\\ProductQueryParams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -148,7 +148,7 @@
               "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T14:23:01.445Z",
               "EditorCaption": ""
@@ -227,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 28,
               "Title": "ProductQueryParams.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Dtos\\ProductQueryParams.cs",
               "RelativeDocumentMoniker": "UseCase\\Dtos\\ProductQueryParams.cs",
@@ -235,11 +235,11 @@
               "RelativeToolTip": "UseCase\\Dtos\\ProductQueryParams.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:20:38.134Z"
+              "WhenOpened": "2024-07-11T10:22:40.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "20240628050356_init.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Migrations\\20240628050356_init.cs",
               "RelativeDocumentMoniker": "Infrastructure.MySQL\\Migrations\\20240628050356_init.cs",
@@ -251,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\Base\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "Infrastructure.SQLServer\\Repositories\\Base\\RepositoryBase.cs",
@@ -275,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "CreateOrderUnitOfWork.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
               "RelativeDocumentMoniker": "Infrastructure.SQLServer\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
@@ -287,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "CreateProductUnitOfWork.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
               "RelativeDocumentMoniker": "Infrastructure.SQLServer\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
@@ -299,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\OrderController.cs",
@@ -311,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "CreateOrderUnitOfWork.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
               "RelativeDocumentMoniker": "Infrastructure.MySQL\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
@@ -323,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "CreateProductUnitOfWork.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
               "RelativeDocumentMoniker": "Infrastructure.MySQL\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
@@ -335,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
@@ -347,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "ICreateProductUnitOfWork.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs",
               "RelativeDocumentMoniker": "UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs",
@@ -355,11 +355,11 @@
               "RelativeToolTip": "UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:06:58.665Z"
+              "WhenOpened": "2024-07-11T10:22:40.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "DeleteProductCommandHandler.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\DeleteProductCommandHandler.cs",
               "RelativeDocumentMoniker": "UseCase\\Product\\Command\\Handler\\DeleteProductCommandHandler.cs",
@@ -371,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure.SQLServer\\DependencyInjection.cs",
@@ -383,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "UpdateProductCommandHandler.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
@@ -395,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "ICreateOrderUnitOfWork.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
               "RelativeDocumentMoniker": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
@@ -403,11 +403,11 @@
               "RelativeToolTip": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:06:20.905Z"
+              "WhenOpened": "2024-07-11T10:22:40.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure.MySQL\\DependencyInjection.cs",
@@ -419,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "PropductQueryCommandHandler.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Query\\Handler\\PropductQueryCommandHandler.cs",
               "RelativeDocumentMoniker": "UseCase\\Product\\Query\\Handler\\PropductQueryCommandHandler.cs",
@@ -431,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\OrderRepository.cs",
@@ -443,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "IventoryRepository.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\IventoryRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\IventoryRepository.cs",
@@ -455,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure.SQLServer\\Repositories\\OrderRepository.cs",
@@ -467,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "IventoryRepository.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\IventoryRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure.SQLServer\\Repositories\\IventoryRepository.cs",
@@ -479,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "IUnitOfWorkBase.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs",
               "RelativeDocumentMoniker": "UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs",
@@ -487,11 +487,11 @@
               "RelativeToolTip": "UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:56:14.224Z"
+              "WhenOpened": "2024-07-11T10:22:40.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
@@ -503,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 26,
               "Title": "SQLServerDbContext.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\SQLServerDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure.SQLServer\\SQLServerDbContext.cs",
@@ -515,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 27,
               "Title": "OrderDbContext.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\OrderDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure.MySQL\\OrderDbContext.cs",

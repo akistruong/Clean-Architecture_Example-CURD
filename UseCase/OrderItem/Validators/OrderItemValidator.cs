@@ -2,7 +2,7 @@
 
 namespace UseCase.OrderItem.Validators
 {
-    public  class OrderItemValidator : AbstractValidator<Entities.OrderItem>
+    public  class OrderItemValidator : AbstractValidator<OrderItemCommand>
     {
         public OrderItemValidator()
         {

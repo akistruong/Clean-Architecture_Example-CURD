@@ -6,11 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UseCase.Shared;
 using UseCase.UnitOfWork.Order;
 
 namespace UseCase.Order.Commands.Handlers
 {
-    public class PlaceOrderCommandHandler : IRequestHandler<PlaceOrderCommand, OrderResult>
+    public class PlaceOrderCommandHandler : IRequestHandler<PlaceOrderCommand, Result>
     {
         private readonly ICreateOrderUnitOfWork _createOrderUnitOfWork;
         private IMapper _mapper;
@@ -24,7 +25,7 @@ namespace UseCase.Order.Commands.Handlers
             _mapper = mapper;
             _validator = validator;
         }
-        public async Task<OrderResult> Handle(PlaceOrderCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(PlaceOrderCommand request, CancellationToken cancellationToken)
         {
             try
             {
@@ -32,10 +33,9 @@ namespace UseCase.Order.Commands.Handlers
                 var _orderValidation = _validator.Validate(request);
                 if (!_orderValidation.IsValid)
                 {
-                    return OrderResult.Faild;
+                    return Result.Failure(new Error("Validation invalid"));
                 }
                 var _orderAddData = _mapper.Map<Entities.Order>(request);
-               
                 var _items = _orderAddData.Items;
                 //Update qty item;
                 for (int i = 0; i < _items.Count; i++)
@@ -68,7 +68,7 @@ namespace UseCase.Order.Commands.Handlers
                     }
                     else
                     {
-                        return OrderResult.QtyInvalid;
+                        return Result.Failure(new Error("Quantity invalid"));
                     }
                     _item.Price = _product.ProductPrice;
                     _createOrderUnitOfWork._productRepository.Update(_product);
@@ -78,13 +78,13 @@ namespace UseCase.Order.Commands.Handlers
                 await HandleInsertOrder(_orderAddData);
                 // Save and Commit
                 await _createOrderUnitOfWork.Commit();
-                return OrderResult.Success;
+                return Result.Success();
 
             }
             catch (Exception ex)
             {
                 await _createOrderUnitOfWork.Cancel();
-                return OrderResult.Faild;
+                throw ex;
             }
         }
 
