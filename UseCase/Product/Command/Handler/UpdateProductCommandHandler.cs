@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using FluentValidation;
+using FluentValidation.Results;
 using MediatR;
 using UseCase.Interfaces.Respositories;
 using UseCase.Interfaces.UnitOfWork.Product;
+using UseCase.Shared;
 
 namespace UseCase.Product.Command.Handler
 {
@@ -10,25 +12,25 @@ namespace UseCase.Product.Command.Handler
         IMapper mapper,
         IValidator<UpdateProductCommand> validator,
         IUpdateProductUnitOfWork updateProductUnitOfWork
-        ) : IRequestHandler<UpdateProductCommand>
+        ) : IRequestHandler<UpdateProductCommand, Result>
     {
         private IMapper _mapper = mapper;
         private IValidator<UpdateProductCommand> _validator = validator;
         private readonly IUpdateProductUnitOfWork _updateProductUnitOfWork = updateProductUnitOfWork;
 
-        public async Task Handle(UpdateProductCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
             var _productRequest = request;
             var _isQtyProductChange = false;
             try
             {
-
                 //Begin Transaction
                 await _updateProductUnitOfWork.Begin();
                 var _validateResult = await _validator.ValidateAsync(request);
                 if (!_validateResult.IsValid)
                 {
-                    throw new Exception();
+                  var erros=  _validateResult.Errors;
+                    return Result.Failure(new Error("Validation invalid"));
                 }
                 var _productFinded = await _updateProductUnitOfWork._productRepository.SelectAsync(_productRequest.ProductID);
                 ArgumentNullException.ThrowIfNull(_productFinded);
@@ -40,6 +42,7 @@ namespace UseCase.Product.Command.Handler
                 _updateProductUnitOfWork._productRepository.Update(_product);
                 //Commit transaction
                 await _updateProductUnitOfWork.Commit();
+                return Result.Success();
             }
             catch (Exception ex)
             {

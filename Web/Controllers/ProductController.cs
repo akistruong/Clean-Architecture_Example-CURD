@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using UseCase.Dtos;
 using UseCase.Product.Command;
 using UseCase.Product.Query;
+using UseCase.Shared;
 
 namespace Web.Controllers
 {
@@ -30,8 +31,8 @@ namespace Web.Controllers
         [HttpPut]
         public async Task<IActionResult> PutAsync(UpdateProductCommand request)
         {
-            await _mediator.Send(request);
-            return Ok(request);
+            Result result =  await _mediator.Send(request);
+            return result._isSuccessed? Ok(result!):NotFound(result);
         }
         [HttpDelete]
         public async Task<IActionResult> DeleteAsync(string ID)

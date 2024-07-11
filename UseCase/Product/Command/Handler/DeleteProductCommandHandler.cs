@@ -1,9 +1,10 @@
 ﻿using MediatR;
 using UseCase.Interfaces.Respositories;
+using UseCase.Shared;
 
 namespace UseCase.Product.Command.Handler
 {
-    public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand>
+    public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand,Result>
     {
         private readonly IProductRepository _productRepository;
 
@@ -12,7 +13,7 @@ namespace UseCase.Product.Command.Handler
             _productRepository = productRepository;
         }
 
-        public async Task Handle(DeleteProductCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
         {
             try
             {
@@ -21,6 +22,7 @@ namespace UseCase.Product.Command.Handler
                 ArgumentNullException.ThrowIfNull(product);
                 _productRepository.Delete(product);
                 await _productRepository.SaveChangesAsync();
+                return Result.Success();
             }
             catch (Exception ex)
             {

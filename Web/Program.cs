@@ -3,6 +3,7 @@ using Infrastructure.SQLServer;
 using System.Net;
 using System.Reflection;
 using UseCase;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 var Database = "MYSQL";

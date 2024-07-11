@@ -1,8 +1,9 @@
 ﻿using MediatR;
+using UseCase.Shared;
 
 namespace UseCase.Product.Command
 {
-    public class CreateProductCommand : IRequest
+    public class CreateProductCommand : IRequest<Result>
     {
         public string ProductID { get; set; }
         public string ProductName { get; set; }
