@@ -1,10 +1,8 @@
 using Infrastructure.MySQL;
 using Infrastructure.SQLServer;
+using Serilog;
 using System.Net;
-using System.Reflection;
 using UseCase;
-using Newtonsoft.Json;
-
 var builder = WebApplication.CreateBuilder(args);
 var Database = "MYSQL";
 // Add services to the container.
@@ -13,6 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // ADD USECASE SERVICE
 builder.Services.AddUseCaseServices();
+builder.Host.UseSerilog((context, configuration) =>
+    configuration.ReadFrom.Configuration(context.Configuration));
 if (Database == "MYSQL")
 {
     builder.Services.AddMySQLInfrastructureServices();
@@ -27,6 +27,7 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 }); ;
 
 var app = builder.Build();
+
 app.UseExceptionHandler(option =>
 {
     option.Run(async (context) =>
