@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\Code\\Clean-Architecture_Example-CURD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\order\\commands\\handlers\\placeordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\commands\\handlers\\placeordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\behaviors\\exceptionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\behaviors\\exceptionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\command\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\command\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\command\\handler\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\command\\handler\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|d:\\code\\clean-architecture_example-curd\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\order\\validators\\placeordercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\order\\validators\\placeordercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoggingBehavior.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Behaviors\\LoggingBehavior.cs",
-              "RelativeDocumentMoniker": "UseCase\\Behaviors\\LoggingBehavior.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Behaviors\\LoggingBehavior.cs",
-              "RelativeToolTip": "UseCase\\Behaviors\\LoggingBehavior.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAAnAAAA",
+              "DocumentIndex": 1,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "UseCase\\Product\\Command\\CreateProductCommand.cs",
+              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\CreateProductCommand.cs",
+              "RelativeToolTip": "UseCase\\Product\\Command\\CreateProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T04:05:39.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T11:49:36.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAzwC0AAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "PlaceOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\Commands\\Handlers\\PlaceOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "UseCase\\Order\\Commands\\Handlers\\PlaceOrderCommandHandler.cs",
+              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\Commands\\Handlers\\PlaceOrderCommandHandler.cs",
+              "RelativeToolTip": "UseCase\\Order\\Commands\\Handlers\\PlaceOrderCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T03:52:19.953Z"
+              "WhenOpened": "2024-07-12T11:47:34.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateProductCommandHandler.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\CreateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "UseCase\\Product\\Command\\Handler\\CreateProductCommandHandler.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\CreateProductCommandHandler.cs",
-              "RelativeToolTip": "UseCase\\Product\\Command\\Handler\\CreateProductCommandHandler.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAawDEAAAAQAAAA",
+              "Title": "PlaceOrderCommandValidator.cs",
+              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\Validators\\PlaceOrderCommandValidator.cs",
+              "RelativeDocumentMoniker": "UseCase\\Order\\Validators\\PlaceOrderCommandValidator.cs",
+              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\Validators\\PlaceOrderCommandValidator.cs",
+              "RelativeToolTip": "UseCase\\Order\\Validators\\PlaceOrderCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T03:49:22.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExceptionBehavior.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Behaviors\\ExceptionBehavior.cs",
-              "RelativeDocumentMoniker": "UseCase\\Behaviors\\ExceptionBehavior.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Behaviors\\ExceptionBehavior.cs",
-              "RelativeToolTip": "UseCase\\Behaviors\\ExceptionBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T03:47:36.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "UseCase\\DependencyInjection.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\DependencyInjection.cs",
-              "RelativeToolTip": "UseCase\\DependencyInjection.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T03:47:12.39Z"
+              "WhenOpened": "2024-07-12T11:47:30.017Z"
             }
           ]
         }

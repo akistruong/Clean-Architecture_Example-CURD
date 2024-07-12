@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace UseCase.Behaviors
 {
-    public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+    internal class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {
         private readonly ILogger<LoggingBehavior<TRequest, TResponse>> _logger;
 
@@ -19,28 +19,17 @@ namespace UseCase.Behaviors
 
         public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
-            try
-            {
-
-                _logger.LogInformation(
-          "Starting request {@RequestName}, {@DateTimeUtc}",
-          typeof(TRequest).Name,
-          DateTime.UtcNow);
-                var response = await next();
-                _logger.LogInformation(
-         "Completed request {@RequestName}, {@DateTimeUtc}",
+            _logger.LogInformation(
+         "Starting request {@RequestName}, {@DateTimeUtc}",
          typeof(TRequest).Name,
          DateTime.UtcNow);
-                return response;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(
-               "Request failure {@RequestName}, {@Error}, {@DateTimeUtc}",
-               typeof(TRequest).Name, ex.Message,
-               DateTime.UtcNow);
-                throw ex;
-            }
+            var response = await next();
+            _logger.LogInformation(
+     "Completed request {@RequestName}, {@DateTimeUtc}",
+     typeof(TRequest).Name,
+     DateTime.UtcNow);
+            return response;
+
         }
     }
 }

@@ -4,7 +4,7 @@ using Serilog;
 using System.Net;
 using UseCase;
 var builder = WebApplication.CreateBuilder(args);
-var Database = "MYSQL";
+var Database = "SQLServer";
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddUseCaseServices();
 builder.Host.UseSerilog((context, configuration) =>
     configuration.ReadFrom.Configuration(context.Configuration));
-if (Database == "MYSQL")
+if (Database == "MySQL")
 {
     builder.Services.AddMySQLInfrastructureServices();
 }

@@ -4,7 +4,7 @@ using UseCase.Shared;
 
 namespace UseCase.Behaviors
 {
-    public class ExceptionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+    internal class ExceptionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {
         private readonly ILogger<ExceptionBehavior<TRequest, TResponse>> _logger;
 
@@ -12,7 +12,6 @@ namespace UseCase.Behaviors
         {
             _logger = logger;
         }
-
         public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
             try
@@ -22,6 +21,10 @@ namespace UseCase.Behaviors
             }
             catch (Exception ex)
             {
+                _logger.LogError(
+             "Request failure {@RequestName}, {@Error}, {@DateTimeUtc}",
+             typeof(TRequest).Name, ex.Message,
+             DateTime.UtcNow);
                 throw ex;
             }
         }

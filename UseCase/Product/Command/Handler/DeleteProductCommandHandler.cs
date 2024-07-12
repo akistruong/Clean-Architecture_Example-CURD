@@ -19,10 +19,10 @@ namespace UseCase.Product.Command.Handler
             {
                 var ID = request.Id;
                 var product = await _productRepository.SelectAsync(ID);
-                ArgumentNullException.ThrowIfNull(product);
+                if (product == null) return Result.NotFound;
                 _productRepository.Delete(product);
                 await _productRepository.SaveChangesAsync();
-                return Result.Success();
+                return Result.Success;
             }
             catch (Exception ex)
             {

@@ -5,6 +5,7 @@ namespace UseCase.Product.Command
 {
     public class CreateProductCommand : IRequest<Result>
     {
+
         public string ProductID { get; set; }
         public string ProductName { get; set; }
         public decimal ProductPrice { get; set; }

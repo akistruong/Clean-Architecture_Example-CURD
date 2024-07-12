@@ -1,9 +1,10 @@
 ﻿using Entities;
 using Microsoft.EntityFrameworkCore;
+using UseCase.Interfaces.Data;
 
 namespace Infrastructure.SQLServer
 {
-    public class SQLServerDbContext : DbContext
+    public class SQLServerDbContext : IDbContext
     {
         public SQLServerDbContext(DbContextOptions options) : base(options)
         {

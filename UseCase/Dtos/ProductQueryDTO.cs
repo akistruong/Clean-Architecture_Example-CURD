@@ -11,10 +11,5 @@ namespace UseCase.Dtos
         public decimal MinPrice { get; set; } = 0;
         public decimal MaxPrice { get; set; } = 0;
         public string ProductName { get; set; } = string.Empty;
-        public IEnumerable<string> Colors { get; set; }=  new List<string>();
-        public int Limit { get; set; }
-        public int Page { get; set; }
-
-
     }
 }
