@@ -17,24 +17,11 @@ namespace UseCase.Behaviors
         {
             try
             {
-
-                _logger.LogInformation(
-          "Starting request {@RequestName}, {@DateTimeUtc}",
-          typeof(TRequest).Name,
-          DateTime.UtcNow);
                 var response = await next();
-                _logger.LogInformation(
-         "Completed request {@RequestName}, {@DateTimeUtc}",
-         typeof(TRequest).Name,
-         DateTime.UtcNow);
                 return response;
             }
             catch (Exception ex)
             {
-                _logger.LogError(
-               "Request failure {@RequestName}, {@Error}, {@DateTimeUtc}",
-               typeof(TRequest).Name, ex.Message,
-               DateTime.UtcNow);
                 throw ex;
             }
         }

@@ -5,7 +5,7 @@ using UseCase.Product.UnitOfWork;
 
 namespace Infrastructure.MySQL.UnitOfWork.Product
 {
-    public class CreateProductUnitOfWork : UnitOfWorkBase, ICreateProductUnitOfWork
+    internal class CreateProductUnitOfWork : UnitOfWorkBase, ICreateProductUnitOfWork
     {
         public IProductRepository _productRepository { get; }
         public IIventoryRepository _iventoryRepository { get; }

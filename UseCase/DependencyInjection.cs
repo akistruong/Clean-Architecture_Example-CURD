@@ -31,6 +31,7 @@ namespace UseCase
                 cfg.RegisterServicesFromAssembly(typeof(UpdateProductCommandHandler).Assembly);
                 cfg.RegisterServicesFromAssembly(typeof(DeleteProductCommandHandler).Assembly);
                 cfg.AddOpenBehavior(typeof(ExceptionBehavior<,>));
+                cfg.AddOpenBehavior(typeof(LoggingBehavior<,>));
                 //ORDER
                 cfg.RegisterServicesFromAssembly(typeof(PlaceOrderCommandHandler).Assembly);
 

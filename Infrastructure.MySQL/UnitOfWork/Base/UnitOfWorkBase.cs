@@ -2,7 +2,7 @@
 
 namespace Infrastructure.MySQL.UnitOfWork.Base
 {
-    public class UnitOfWorkBase : IUnitOfWorkBase
+    internal class UnitOfWorkBase : IUnitOfWorkBase
     {
         OrderDbContext _orderDbContext;
 

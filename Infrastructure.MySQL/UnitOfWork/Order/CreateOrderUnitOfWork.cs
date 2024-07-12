@@ -5,7 +5,7 @@ using UseCase.UnitOfWork.Order;
 
 namespace Infrastructure.MySQL.UnitOfWork.Order
 {
-    public class CreateOrderUnitOfWork : UnitOfWorkBase, ICreateOrderUnitOfWork
+    internal class CreateOrderUnitOfWork : UnitOfWorkBase, ICreateOrderUnitOfWork
     {
         public IProductRepository _productRepository { get; }
 

@@ -5,7 +5,7 @@ using UseCase.Interfaces.Respositories;
 
 namespace Infrastructure.MySQL.Repositories
 {
-    public class IventoryRepository : RepositoryBase<Entities.Iventory>, IIventoryRepository
+    internal class IventoryRepository : RepositoryBase<Entities.Iventory>, IIventoryRepository
     {
         OrderDbContext _orderDbContext;
         public IventoryRepository(OrderDbContext orderDbContext) : base(orderDbContext)
