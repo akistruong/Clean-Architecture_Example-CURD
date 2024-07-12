@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using MySqlX.XDevAPI.Common;
+using Serilog;
 using UseCase.Dtos;
 using UseCase.Product.Command;
 using UseCase.Product.Query;
@@ -12,9 +14,11 @@ namespace Web.Controllers
     public class ProductController : ControllerBase
     {
         private IMediator _mediator;
+
         public ProductController(IMediator mediator)
         {
             _mediator = mediator;
+
         }
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] ProductQueryDTO _params)
@@ -25,14 +29,15 @@ namespace Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(CreateProductCommand request)
         {
-            await _mediator.Send(request);
-            return Ok();
+           
+            var result = await _mediator.Send(request);
+            return result._isSuccessed ? Ok(result!) : this.BadRequest(result);
         }
         [HttpPut]
         public async Task<IActionResult> PutAsync(UpdateProductCommand request)
         {
-            Result result =  await _mediator.Send(request);
-            return result._isSuccessed? Ok(result!):NotFound(result);
+            var result =  await _mediator.Send(request);
+            return result._isSuccessed? Ok(result!): this.BadRequest(result);
         }
         [HttpDelete]
         public async Task<IActionResult> DeleteAsync(string ID)

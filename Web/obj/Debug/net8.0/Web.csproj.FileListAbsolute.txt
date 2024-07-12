@@ -518,3 +518,12 @@ D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\Web.genruntimeconfi
 D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\ref\Web.dll
 D:\Code\Clean-Architecture_Example-CURD\Web\obj\Debug\net8.0\Web.MvcApplicationPartsAssemblyInfo.cs
 D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Code\Clean-Architecture_Example-CURD\Web\bin\Debug\net8.0\Serilog.Sinks.File.dll

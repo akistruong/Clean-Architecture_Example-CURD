@@ -3,132 +3,24 @@
   "WorkspaceRootPath": "D:\\Code\\Clean-Architecture_Example-CURD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\behaviors\\exceptionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\behaviors\\exceptionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\command\\handler\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\command\\handler\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|d:\\code\\clean-architecture_example-curd\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.sqlserver\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\interfaces\\respositories\\iiventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\interfaces\\respositories\\iiventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\interfaces\\respositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\interfaces\\respositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\query\\productquerycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\query\\productquerycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\interfaces\\respositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\interfaces\\respositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\interfaces\\respositories\\base\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\interfaces\\respositories\\base\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\migrations\\20240628050356_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\migrations\\20240628050356_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\unitofwork\\order\\createorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\unitofwork\\order\\createorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|d:\\code\\clean-architecture_example-curd\\web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.sqlserver\\unitofwork\\product\\createproductunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\unitofwork\\product\\createproductunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.sqlserver\\unitofwork\\order\\createorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\unitofwork\\order\\createorderunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.sqlserver\\repositories\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\repositories\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\unitofwork\\product\\createproductunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\unitofwork\\product\\createproductunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.sqlserver\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\repositories\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\repositories\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\query\\handler\\propductquerycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\query\\handler\\propductquerycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\command\\handler\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\command\\handler\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\product\\command\\handler\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\product\\command\\handler\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\repositories\\iventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\repositories\\iventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.sqlserver\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.sqlserver\\repositories\\iventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\repositories\\iventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|d:\\code\\clean-architecture_example-curd\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96571DB6-BA59-46B8-B79F-81F726881DDF}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.sqlserver\\sqlserverdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61055428-118A-480B-8F43-BED401B259C3}|Infrastructure.SQLServer\\Infrastructure.SQLServer.csproj|solutionrelative:infrastructure.sqlserver\\sqlserverdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|d:\\code\\clean-architecture_example-curd\\infrastructure.mysql\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{752A82D9-E9A4-499A-8902-9A4F4EB14696}|Infrastructure.MySQL\\Infrastructure.MySQL.csproj|solutionrelative:infrastructure.mysql\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Dtos\\ProductQueryParams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UseCase\\Dtos\\ProductQueryParams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|d:\\code\\clean-architecture_example-curd\\usecase\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88885556-E3EE-4A67-AD8E-4EADC0B669F9}|UseCase\\UseCase.csproj|solutionrelative:usecase\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -143,387 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Behaviors\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "UseCase\\Behaviors\\LoggingBehavior.cs",
+              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Behaviors\\LoggingBehavior.cs",
+              "RelativeToolTip": "UseCase\\Behaviors\\LoggingBehavior.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T04:05:39.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAzwC0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:23:01.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductQueryCommand.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Query\\ProductQueryCommand.cs",
-              "RelativeDocumentMoniker": "UseCase\\Product\\Query\\ProductQueryCommand.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Query\\ProductQueryCommand.cs",
-              "RelativeToolTip": "UseCase\\Product\\Query\\ProductQueryCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:21:35.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Interfaces\\Respositories\\Base\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "UseCase\\Interfaces\\Respositories\\Base\\IRepositoryBase.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Interfaces\\Respositories\\Base\\IRepositoryBase.cs",
-              "RelativeToolTip": "UseCase\\Interfaces\\Respositories\\Base\\IRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:54:20.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Interfaces\\Respositories\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "UseCase\\Interfaces\\Respositories\\IOrderRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Interfaces\\Respositories\\IOrderRepository.cs",
-              "RelativeToolTip": "UseCase\\Interfaces\\Respositories\\IOrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:55:33.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IIventoryRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Interfaces\\Respositories\\IIventoryRepository.cs",
-              "RelativeDocumentMoniker": "UseCase\\Interfaces\\Respositories\\IIventoryRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Interfaces\\Respositories\\IIventoryRepository.cs",
-              "RelativeToolTip": "UseCase\\Interfaces\\Respositories\\IIventoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:55:05.126Z"
+              "WhenOpened": "2024-07-12T03:52:19.953Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Infrastructure.SQLServer\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAABXAAAA",
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "UseCase\\Product\\Command\\Handler\\CreateProductCommandHandler.cs",
+              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "UseCase\\Product\\Command\\Handler\\CreateProductCommandHandler.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAawDEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:56:44.703Z"
+              "WhenOpened": "2024-07-12T03:49:22.782Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Title": "ExceptionBehavior.cs",
+              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Behaviors\\ExceptionBehavior.cs",
+              "RelativeDocumentMoniker": "UseCase\\Behaviors\\ExceptionBehavior.cs",
+              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Behaviors\\ExceptionBehavior.cs",
+              "RelativeToolTip": "UseCase\\Behaviors\\ExceptionBehavior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:57:27.58Z"
+              "WhenOpened": "2024-07-12T03:47:36.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ProductQueryParams.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Dtos\\ProductQueryParams.cs",
-              "RelativeDocumentMoniker": "UseCase\\Dtos\\ProductQueryParams.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Dtos\\ProductQueryParams.cs",
-              "RelativeToolTip": "UseCase\\Dtos\\ProductQueryParams.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T10:22:40.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240628050356_init.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Migrations\\20240628050356_init.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\Migrations\\20240628050356_init.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Migrations\\20240628050356_init.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\Migrations\\20240628050356_init.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:09:05.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\Base\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\Repositories\\Base\\RepositoryBase.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\Base\\RepositoryBase.cs",
-              "RelativeToolTip": "Infrastructure.SQLServer\\Repositories\\Base\\RepositoryBase.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:08:10.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Interfaces\\Respositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "UseCase\\Interfaces\\Respositories\\IProductRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Interfaces\\Respositories\\IProductRepository.cs",
-              "RelativeToolTip": "UseCase\\Interfaces\\Respositories\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:55:41.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateOrderUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
-              "RelativeToolTip": "Infrastructure.SQLServer\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:08:20.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateProductUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
-              "RelativeToolTip": "Infrastructure.SQLServer\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:08:30.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Web\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAEBVwA0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:08:40.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateOrderUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\UnitOfWork\\Order\\CreateOrderUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:07:15.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateProductUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\UnitOfWork\\Product\\CreateProductUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:07:50.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\Repositories\\Base\\RepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:07:09.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ICreateProductUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs",
-              "RelativeDocumentMoniker": "UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs",
-              "RelativeToolTip": "UseCase\\Product\\UnitOfWork\\ICreateProductUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T10:22:40.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DeleteProductCommandHandler.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\DeleteProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "UseCase\\Product\\Command\\Handler\\DeleteProductCommandHandler.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\DeleteProductCommandHandler.cs",
-              "RelativeToolTip": "UseCase\\Product\\Command\\Handler\\DeleteProductCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:06:45.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\DependencyInjection.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure.SQLServer\\DependencyInjection.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAGAAAA",
+              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "UseCase\\DependencyInjection.cs",
+              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\DependencyInjection.cs",
+              "RelativeToolTip": "UseCase\\DependencyInjection.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T11:35:28.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UpdateProductCommandHandler.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
-              "RelativeToolTip": "UseCase\\Product\\Command\\Handler\\UpdateProductCommandHandler.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:06:27.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ICreateOrderUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-              "RelativeDocumentMoniker": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-              "RelativeToolTip": "UseCase\\Order\\UnitOfWork\\ICreateOrderUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T10:22:40.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\DependencyInjection.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\DependencyInjection.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAxwBIAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T11:29:44.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PropductQueryCommandHandler.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Query\\Handler\\PropductQueryCommandHandler.cs",
-              "RelativeDocumentMoniker": "UseCase\\Product\\Query\\Handler\\PropductQueryCommandHandler.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\Product\\Query\\Handler\\PropductQueryCommandHandler.cs",
-              "RelativeToolTip": "UseCase\\Product\\Query\\Handler\\PropductQueryCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:01:08.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\OrderRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\Repositories\\OrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:57:08.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IventoryRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\IventoryRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\Repositories\\IventoryRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\Repositories\\IventoryRepository.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\Repositories\\IventoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:57:03.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\Repositories\\OrderRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Infrastructure.SQLServer\\Repositories\\OrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:56:40.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IventoryRepository.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\IventoryRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\Repositories\\IventoryRepository.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\Repositories\\IventoryRepository.cs",
-              "RelativeToolTip": "Infrastructure.SQLServer\\Repositories\\IventoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:56:32.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IUnitOfWorkBase.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs",
-              "RelativeDocumentMoniker": "UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs",
-              "RelativeToolTip": "UseCase\\UnitOfWork\\Base\\IUnitOfWorkBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T10:22:40.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T11:35:21.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SQLServerDbContext.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\SQLServerDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure.SQLServer\\SQLServerDbContext.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.SQLServer\\SQLServerDbContext.cs",
-              "RelativeToolTip": "Infrastructure.SQLServer\\SQLServerDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T11:32:23.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "OrderDbContext.cs",
-              "DocumentMoniker": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\OrderDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure.MySQL\\OrderDbContext.cs",
-              "ToolTip": "D:\\Code\\Clean-Architecture_Example-CURD\\Infrastructure.MySQL\\OrderDbContext.cs",
-              "RelativeToolTip": "Infrastructure.MySQL\\OrderDbContext.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAIBQwAgAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T11:32:14.189Z"
+              "WhenOpened": "2024-07-12T03:47:12.39Z"
             }
           ]
         }

@@ -1,21 +1,27 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using UseCase.Shared;
 
 namespace UseCase.Behaviors
 {
     public class ExceptionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {
+        private readonly ILogger<ExceptionBehavior<TRequest, TResponse>> _logger;
+
+        public ExceptionBehavior(ILogger<ExceptionBehavior<TRequest, TResponse>> logger)
+        {
+            _logger = logger;
+        }
+
         public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
             try
             {
                 var response = await next();
                 return response;
-            }catch (Exception ex) {
+            }
+            catch (Exception ex)
+            {
                 throw ex;
             }
         }

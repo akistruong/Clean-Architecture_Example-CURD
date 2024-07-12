@@ -3,7 +3,7 @@ using UseCase.Interfaces.Respositories;
 
 namespace Infrastructure.MySQL.Repositories
 {
-    public class OrderRepository : RepositoryBase<Entities.Order>, IOrderRepository
+    internal class OrderRepository : RepositoryBase<Entities.Order>, IOrderRepository
     {
         public OrderRepository(OrderDbContext orderDbContext) : base(orderDbContext)
         {

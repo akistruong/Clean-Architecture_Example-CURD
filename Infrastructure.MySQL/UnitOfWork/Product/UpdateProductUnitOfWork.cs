@@ -9,7 +9,7 @@ using UseCase.Interfaces.UnitOfWork.Product;
 
 namespace Infrastructure.MySQL.UnitOfWork.Product
 {
-    public class UpdateProductUnitOfWork : UnitOfWorkBase, IUpdateProductUnitOfWork
+    internal class UpdateProductUnitOfWork : UnitOfWorkBase, IUpdateProductUnitOfWork
     {
         public UpdateProductUnitOfWork(OrderDbContext orderDbContext, IProductRepository productRepository, IIventoryRepository iventoryRepository) : base(orderDbContext)
         {
