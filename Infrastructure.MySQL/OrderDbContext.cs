@@ -1,15 +1,16 @@
 ﻿using Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using UseCase.Interfaces.Data;
 
 namespace Infrastructure.MySQL
 {
-    public class OrderDbContext : DbContext
+    public class OrderDbContext :IDbContext
     {
         public OrderDbContext(DbContextOptions options) : base(options)
         {
-
         }
+
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }

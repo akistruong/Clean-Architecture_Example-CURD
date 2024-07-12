@@ -6,10 +6,8 @@ namespace Entities
 {
     public class Product
     {
-        [NotMapped]
-        [BsonId]
+        
         [BsonRepresentation(BsonType.ObjectId)]
-        public string _id { get; set; }
         public string ProductID { get; set; }
         public string ProductName { get; set; }
         public decimal ProductPrice { get; set; }

@@ -23,27 +23,38 @@ namespace Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] ProductQueryDTO _params)
         {
-            var products = await _mediator.Send(new ProductQueryCommand(_params));
-            return Ok(products);
+            var _command = new ProductQueryCommand(_params);
+            var _result = await _mediator.Send(_command);
+            return Ok(_result);
+        }
+        [HttpGet("{ID}")]
+        public async Task<IActionResult> Get(string ID)
+        {
+            var _command = new ProductQueryIDCommand(ID);
+            var _result = await _mediator.Send(_command);
+            return Ok(_result);
         }
         [HttpPost]
         public async Task<IActionResult> Post(CreateProductCommand request)
         {
-           
-            var result = await _mediator.Send(request);
+
+            var _command = request;
+            var result = await _mediator.Send(_command);
             return result._isSuccessed ? Ok(result!) : this.BadRequest(result);
         }
         [HttpPut]
         public async Task<IActionResult> PutAsync(UpdateProductCommand request)
         {
-            var result =  await _mediator.Send(request);
-            return result._isSuccessed? Ok(result!): this.BadRequest(result);
+            var _command = request;
+            var result = await _mediator.Send(_command);
+            return result._isSuccessed ? Ok(result!) : this.BadRequest(result);
         }
         [HttpDelete]
         public async Task<IActionResult> DeleteAsync(string ID)
         {
-            await _mediator.Send(new DeleteProductCommand(ID));
-            return Ok();
+            var _command = new DeleteProductCommand(ID);
+            var result = await _mediator.Send(_command);
+            return result._isSuccessed ? Ok(result!) : this.BadRequest(result);
         }
     }
 }
